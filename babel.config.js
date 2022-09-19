@@ -25,7 +25,7 @@ module.exports = {
           hooks: "./src/hooks",
           utils: "./src/utils",
           routes: "./src/routes",
-          theme: "./theme",
+          theme: "./src/theme",
         },
       },
     ],
