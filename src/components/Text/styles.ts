@@ -14,8 +14,6 @@ export default StyleSheet.create({
   header: {
     fontSize: 30,
     lineHeight: 45,
-
-    color: "#D9D9D9",
   },
   large: {
     fontSize: 20,

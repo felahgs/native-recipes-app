@@ -14,7 +14,36 @@ export interface ThemeType {
   background: ColorValue;
   rating: ColorValue;
 
-  colors: {
-    [key: string | number]: ColorValue | { [ḱey: string | number]: ColorValue };
+  colors: ColorProps;
+}
+
+export interface ColorProps {
+  neutral: {
+    black: ColorValue;
+    gray1: ColorValue;
+    gray2: ColorValue;
+    gray3: ColorValue;
+    gray4: ColorValue;
+    white: ColorValue;
   };
+  primary: {
+    100: ColorValue;
+    80: ColorValue;
+    60: ColorValue;
+    40: ColorValue;
+    20: ColorValue;
+  };
+  secondary: {
+    100: ColorValue;
+    80: ColorValue;
+    60: ColorValue;
+    40: ColorValue;
+    20: ColorValue;
+  };
+  rating: ColorValue;
+  warning: {
+    regular: ColorValue;
+    light: ColorValue;
+  };
+  success: ColorValue;
 }
