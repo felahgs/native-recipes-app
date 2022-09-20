@@ -2,7 +2,10 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   base: {
-    color: "black",
+    fontFamily: "Poppins-Regular",
+  },
+  bold: {
+    fontFamily: "Poppins-Bold",
   },
   title: {
     fontSize: 50,
@@ -11,6 +14,8 @@ export default StyleSheet.create({
   header: {
     fontSize: 30,
     lineHeight: 45,
+
+    color: "#D9D9D9",
   },
   large: {
     fontSize: 20,
