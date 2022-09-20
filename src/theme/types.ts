@@ -10,6 +10,7 @@ export interface ThemeType {
   secondaryBackground: ColorValue;
 
   text: ColorValue;
+  buttonLabel: ColorValue;
   label: ColorValue;
   background: ColorValue;
   rating: ColorValue;

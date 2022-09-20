@@ -12,6 +12,7 @@ export const DefaultTheme: ThemeType = {
   secondaryBackground: colors.secondary[20],
 
   text: colors.neutral.black,
+  buttonLabel: colors.neutral.white,
   background: colors.neutral.gray4,
   label: colors.neutral.gray3,
   rating: colors.rating,
