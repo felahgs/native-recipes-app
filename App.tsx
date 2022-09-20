@@ -1,5 +1,5 @@
 import React from "react";
-import { SafeAreaView, StyleSheet, StatusBar, View, Text } from "react-native";
+import { SafeAreaView, StyleSheet, StatusBar, View } from "react-native";
 
 import { ThemeContext } from "hooks/useTheme";
 import DefaultTheme from "theme/defaultTheme";
@@ -21,7 +21,6 @@ const App = () => {
       <ThemeContext.Provider value={DefaultTheme}>
         <View style={styles.view}>
           <SignIn />
-          <Text> Hello World!</Text>
         </View>
       </ThemeContext.Provider>
     </SafeAreaView>
