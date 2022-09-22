@@ -11,4 +11,10 @@ export default StyleSheet.create({
     lineHeight: 24,
     fontWeight: 600,
   },
+  withIcon: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    width: 100,
+  },
 });

@@ -7,4 +7,5 @@ export interface ButtonType
   passedStyle?: StyleProp<{}>;
   title?: string;
   secondary?: boolean;
+  icon?: string;
 }

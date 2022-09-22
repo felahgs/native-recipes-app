@@ -1,6 +1,7 @@
-import { Pressable } from "react-native";
+import { Pressable, View } from "react-native";
 import React from "react";
 
+import Icon from "components/Icon";
 import Text from "components/Text";
 import { useTheme } from "hooks/useTheme";
 
@@ -10,7 +11,7 @@ import styles from "./styles";
 
 const TextInput = (props: ButtonType) => {
   const theme = useTheme();
-  const { title, secondary, passedStyle } = props;
+  const { icon, title, secondary, passedStyle } = props;
 
   const themeColors = {
     backgroundColor: secondary ? "transparent" : theme.primary,
@@ -19,9 +20,12 @@ const TextInput = (props: ButtonType) => {
 
   return (
     <Pressable style={[styles.button, themeColors, passedStyle]} {...props}>
-      <Text color={fontColor} bold>
-        {title}
-      </Text>
+      <View style={icon ? styles.withIcon : null}>
+        <Text color={fontColor} bold>
+          {title}
+        </Text>
+        {icon && <Icon name={icon} color={fontColor} size={16} />}
+      </View>
     </Pressable>
   );
 };
