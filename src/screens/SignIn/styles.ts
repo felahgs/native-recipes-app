@@ -9,8 +9,9 @@ export default StyleSheet.create({
     color: "green",
   },
   signIn: {
-    flex: 1,
+    // flex: 1,
     flexDirection: "row",
-    marginTop: 50,
+    justifyContent: "center",
+    marginTop: 10,
   },
 });

@@ -3,6 +3,7 @@ import React from "react";
 
 import Text from "components/Text";
 import { useTheme } from "hooks/useTheme";
+import SocialMediaLogin from "components/SocialMediaLogin";
 
 import LoginForm from "./components/LoginForm";
 
@@ -21,6 +22,8 @@ const SignIn = () => {
       </View>
 
       <LoginForm />
+
+      <SocialMediaLogin />
 
       <View style={styles.signIn}>
         <Text.Smaller color={theme.text}>Ainda não possuí conta?</Text.Smaller>

@@ -7,13 +7,13 @@ export const DefaultTheme: ThemeType = {
   primaryLight: colors.primary[80],
   secondary: colors.secondary[100],
 
-  primaryBackground: colors.primary[40],
-  primaryBackgroundSelected: colors.primary[80],
-  secondaryBackground: colors.secondary[20],
+  iconBackground: colors.primary[40],
+  iconBackgroundSelected: colors.primary[80],
+  secondaryIconBackground: colors.secondary[20],
 
   text: colors.neutral.black,
   buttonLabel: colors.neutral.white,
-  background: colors.neutral.gray4,
+  background: colors.neutral.white,
   label: colors.neutral.gray3,
   rating: colors.rating,
 
