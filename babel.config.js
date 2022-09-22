@@ -16,6 +16,7 @@ module.exports = {
           ".android.tsx",
         ],
         alias: {
+          assets: "./assets",
           screens: "./src/screens",
           components: "./src/components",
           constants: "./src/constants",
