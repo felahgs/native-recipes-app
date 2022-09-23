@@ -3,7 +3,8 @@ import { SafeAreaView, StyleSheet, StatusBar, View } from "react-native";
 
 import { ThemeContext } from "hooks/useTheme";
 import DefaultTheme from "theme/defaultTheme";
-import SignIn from "screens/SignIn";
+// import SignIn from "screens/SignIn";
+import SignUp from "screens/SignUp";
 
 const styles = StyleSheet.create({
   screen: {
@@ -20,7 +21,8 @@ const App = () => {
       <StatusBar />
       <ThemeContext.Provider value={DefaultTheme}>
         <View style={styles.view}>
-          <SignIn />
+          {/* <SignIn /> */}
+          <SignUp />
         </View>
       </ThemeContext.Provider>
     </SafeAreaView>
