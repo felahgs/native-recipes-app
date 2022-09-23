@@ -5,9 +5,9 @@ export interface ThemeType {
   primaryLight: ColorValue;
   secondary: ColorValue;
 
-  primaryBackground: ColorValue;
-  primaryBackgroundSelected: ColorValue;
-  secondaryBackground: ColorValue;
+  iconBackground: ColorValue;
+  iconBackgroundSelected: ColorValue;
+  secondaryIconBackground: ColorValue;
 
   text: ColorValue;
   buttonLabel: ColorValue;
