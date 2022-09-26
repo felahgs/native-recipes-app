@@ -24,7 +24,9 @@ const TextInput = (props: ButtonType) => {
         <Text color={fontColor} bold>
           {title}
         </Text>
-        {icon && <Icon name={icon} color={fontColor} size={16} />}
+        {icon && (
+          <Icon style={styles.icon} name={icon} color={fontColor} size={16} />
+        )}
       </View>
     </Pressable>
   );
