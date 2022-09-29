@@ -16,10 +16,18 @@ const LoginRoutes = () => {
       <Stack.Screen
         name={SPLASH}
         component={Splash}
-        options={{ title: "Welcome" }}
+        options={{ title: "Welcome", headerShown: false }}
       />
-      <Stack.Screen name={SIGNIN} component={SignIn} />
-      <Stack.Screen name={SIGNUP} component={SignUp} />
+      <Stack.Screen
+        name={SIGNIN}
+        component={SignIn}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name={SIGNUP}
+        component={SignUp}
+        options={{ headerShown: false }}
+      />
     </Stack.Navigator>
   );
 };
