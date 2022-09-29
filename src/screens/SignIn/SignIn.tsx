@@ -4,16 +4,19 @@ import React from "react";
 import Text from "components/Text";
 import { useTheme } from "hooks/useTheme";
 import SocialMediaLogin from "components/SocialMediaLogin";
+import { LoginRoutesNames } from "constants/routes";
 
 import LoginForm from "./components/LoginForm";
 
 import styles from "./styles";
+import * as T from "./types";
 
-const SignIn = () => {
+const SignIn = ({ navigation }: T.SignInScreenProps) => {
   const theme = useTheme();
+  const { SIGNUP } = LoginRoutesNames;
 
   return (
-    <View>
+    <View style={styles.container}>
       <View style={styles.welcome}>
         <Text.Header color={theme.label} bold>
           Olá,
@@ -27,7 +30,7 @@ const SignIn = () => {
 
       <View style={styles.signIn}>
         <Text.Smaller color={theme.text}>Ainda não possuí conta?</Text.Smaller>
-        <Pressable onPress={() => console.log("TODO: go to create account")}>
+        <Pressable onPress={() => navigation.navigate(SIGNUP)}>
           <Text.Smaller color={theme.secondary}> Cadastre aqui</Text.Smaller>
         </Pressable>
       </View>

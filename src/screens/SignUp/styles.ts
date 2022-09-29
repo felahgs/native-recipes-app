@@ -1,8 +1,9 @@
 import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
-  view: {
-    marginVertical: 30,
+  container: {
+    margin: 30,
+    alignContent: "center",
   },
   header: {
     marginBottom: 30,
@@ -11,9 +12,8 @@ export default StyleSheet.create({
     color: "green",
   },
   signUp: {
-    // flex: 1,
     flexDirection: "row",
     justifyContent: "center",
-    marginTop: 10,
+    margin: 10,
   },
 });

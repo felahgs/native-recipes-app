@@ -7,10 +7,13 @@ import Text from "components/Text";
 import LogoImage from "assets/images/logo.svg";
 import backgroundImage from "assets/images/splash-background.jpg";
 import { useTheme } from "hooks/useTheme";
+import { LoginRoutesNames } from "constants/routes";
 
 import styles from "./styles";
+import * as T from "./types";
 
-const Splash = () => {
+const Splash = ({ navigation }: T.SplashScreenProps) => {
+  const { SIGNIN } = LoginRoutesNames;
   const theme = useTheme();
 
   const Logo = () => (
@@ -45,7 +48,7 @@ const Splash = () => {
           </View>
 
           <Button
-            onPress={() => console.log("TODO: navigate to login screen")}
+            onPress={() => navigation.navigate(SIGNIN)}
             title="Comerçar"
             icon="arrow-right"
             passedStyle={styles.button}
