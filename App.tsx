@@ -1,10 +1,12 @@
 import React from "react";
-import { SafeAreaView, StyleSheet, StatusBar, View } from "react-native";
+import { SafeAreaView, StyleSheet, StatusBar } from "react-native";
+
+import { NavigationContainer } from "@react-navigation/native";
 
 import { ThemeContext } from "hooks/useTheme";
 import DefaultTheme from "theme/defaultTheme";
 // import SignIn from "screens/SignIn";
-import SignUp from "screens/SignUp";
+import { LoginRoutes } from "routes";
 
 const styles = StyleSheet.create({
   screen: {
@@ -17,15 +19,14 @@ const styles = StyleSheet.create({
 
 const App = () => {
   return (
-    <SafeAreaView style={styles.screen}>
-      <StatusBar />
-      <ThemeContext.Provider value={DefaultTheme}>
-        <View style={styles.view}>
-          {/* <SignIn /> */}
-          <SignUp />
-        </View>
-      </ThemeContext.Provider>
-    </SafeAreaView>
+    <NavigationContainer>
+      <SafeAreaView style={styles.screen}>
+        <StatusBar />
+        <ThemeContext.Provider value={DefaultTheme}>
+          <LoginRoutes />
+        </ThemeContext.Provider>
+      </SafeAreaView>
+    </NavigationContainer>
   );
 };
 

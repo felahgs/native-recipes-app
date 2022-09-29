@@ -25,7 +25,7 @@ module.exports = {
           ["/^[/a-zA-Z]/", "absolute"],
           ["parent"],
           ["sibling", "index"],
-          ["/^./styles/"],
+          ["/^./styles/", "/^./types/"],
         ],
         // "alphabetize": { "order": "asc", "ignoreCase": true }
       },
