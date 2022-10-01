@@ -7,8 +7,9 @@ import Button from "components/Button";
 import { useTheme } from "hooks/useTheme";
 
 import styles from "./styles";
+import { LoginFormProps } from "./types";
 
-const LoginForm = () => {
+const LoginForm = ({ redirect }: LoginFormProps) => {
   const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
 
@@ -37,7 +38,8 @@ const LoginForm = () => {
       </Pressable>
 
       <Button
-        onPress={() => console.log("TODO: handle login and press animation")}
+        // TODO: propper handle login
+        onPress={() => redirect()}
         accessibilityLabel="Fazer cadastro de conta"
         title="Entrar"
         icon="arrow-right"

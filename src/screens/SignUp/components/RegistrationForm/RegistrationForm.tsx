@@ -58,7 +58,7 @@ const RegistrationForm = () => {
       <Button
         onPress={() => console.log("TODO: handle login and press animation")}
         accessibilityLabel="Fazer cadastro de conta"
-        title="Entrar"
+        title="Registrar"
         icon="arrow-right"
         passedStyle={styles.button}
       />
