@@ -4,7 +4,6 @@ import React from "react";
 import { useTheme } from "hooks/useTheme";
 
 import { TextInputType } from "./types";
-
 import styles from "./styles";
 
 const TextInput = (props: TextInputType) => {
