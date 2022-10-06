@@ -6,7 +6,6 @@ import Text from "components/Text";
 import { useTheme } from "hooks/useTheme";
 
 import { ButtonType } from "./types";
-
 import styles from "./styles";
 
 const TextInput = (props: ButtonType) => {

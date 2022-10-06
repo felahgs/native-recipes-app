@@ -14,7 +14,10 @@ export class Home extends Component {
           <Text.Large>Olá Usuário</Text.Large>
           <Text.Smaller>O que vamos cozinhar hoje?</Text.Smaller>
         </View>
-        <SearchInput placeholder="Procure por uma receita ou ingrediente" />
+        <SearchInput
+          onFilter={() => console.log("TODO: filter")}
+          placeholder="Procure por uma receita ou ingrediente"
+        />
       </View>
     );
   }

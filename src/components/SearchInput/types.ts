@@ -9,4 +9,5 @@ export interface SearchInput
     JSX.IntrinsicClassAttributes<NativeTextInput>,
     Readonly<TextInputProps> {
   passedStyle?: StyleProp<{}>;
+  onFilter: () => void;
 }
