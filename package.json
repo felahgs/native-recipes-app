@@ -9,6 +9,7 @@
     "start:clear": "react-native start --reset-cache",
     "test": "jest",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "typecheck": "tsc",
     "format": "prettier . --write"
   },
   "dependencies": {

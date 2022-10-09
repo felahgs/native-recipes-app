@@ -4,11 +4,12 @@ import React, { useState } from "react";
 import Button from "components/Button";
 
 import styles from "./styles";
+import { TabsProps } from "./types";
 
-const Tabs = ({ values }) => {
-  const [selected, setSelected] = useState();
+const Tabs = ({ values }: TabsProps) => {
+  const [selected, setSelected] = useState<number>();
 
-  const handlePress = (idx, action) => {
+  const handlePress = (idx: number, action: () => void) => {
     action();
     setSelected(idx);
   };

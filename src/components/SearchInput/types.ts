@@ -4,7 +4,7 @@ import {
   StyleProp,
 } from "react-native";
 
-export interface SearchInput
+export interface SearchInputProps
   extends JSX.IntrinsicAttributes,
     JSX.IntrinsicClassAttributes<NativeTextInput>,
     Readonly<TextInputProps> {
