@@ -8,4 +8,5 @@ export interface ButtonType
   title?: string;
   secondary?: boolean;
   icon?: string;
+  small?: boolean;
 }

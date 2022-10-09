@@ -10,7 +10,7 @@ import styles from "./styles";
 
 const TextInput = (props: ButtonType) => {
   const theme = useTheme();
-  const { icon, title, secondary, passedStyle } = props;
+  const { icon, title, secondary, passedStyle, small } = props;
 
   const themeColors = {
     backgroundColor: secondary ? "transparent" : theme.primary,
@@ -18,11 +18,23 @@ const TextInput = (props: ButtonType) => {
   const fontColor = secondary ? theme.primaryLight : theme.buttonLabel;
 
   return (
-    <Pressable style={[styles.button, themeColors, passedStyle]} {...props}>
+    <Pressable
+      style={[
+        small ? styles.smallButton : styles.button,
+        themeColors,
+        passedStyle,
+      ]}
+      {...props}>
       <View style={icon ? styles.withIcon : null}>
-        <Text color={fontColor} bold>
-          {title}
-        </Text>
+        {small ? (
+          <Text.Smaller color={fontColor} bold>
+            {title}
+          </Text.Smaller>
+        ) : (
+          <Text color={fontColor} bold>
+            {title}
+          </Text>
+        )}
         {icon && (
           <Icon style={styles.icon} name={icon} color={fontColor} size={16} />
         )}
