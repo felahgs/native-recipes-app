@@ -5,10 +5,12 @@ import Text from "components/Text";
 import SearchInput from "components/SearchInput";
 import Tabs from "components/Tabs";
 
+import FeaturedSlider from "./components/FeaturedSlider";
+
 import styles from "./styles";
 
 const Home = () => {
-  const [selectedTab, setSelected] = useState();
+  const [selectedTab, setSelected] = useState<number>();
 
   const mockedTabs = [
     { name: "Tab 1", action: () => setSelected(1) },
@@ -24,18 +26,34 @@ const Home = () => {
     { name: "Tab 11", action: () => setSelected(11) },
   ];
 
+  const mockedFeaturedCards = [
+    { title: "Classic Greek Salad", time: 15 },
+    { title: "Crunch Nut Coleslaw", time: 10 },
+    { title: "Classic Greek Salad", time: 15 },
+    { title: "Crunch Nut Coleslaw", time: 10 },
+    { title: "Crunch Nut Coleslaw", time: 10 },
+    { title: "Crunch Nut Coleslaw", time: 10 },
+    { title: "Crunch Nut Coleslaw", time: 10 },
+    { title: "Crunch Nut Coleslaw", time: 10 },
+  ];
+
   return (
     <View style={styles.container}>
       <View style={styles.user}>
-        <Text.Large>Olá Usuário</Text.Large>
+        <Text.Large bold>Olá Usuário</Text.Large>
         <Text.Smaller>O que vamos cozinhar hoje?</Text.Smaller>
       </View>
+
       <SearchInput
         onFilter={() => console.log("TODO: filter")}
         placeholder="Procure por uma receita ou ingrediente"
       />
+
       <Tabs values={mockedTabs} />
-      <Text.Large>SELECTED {selectedTab}</Text.Large>
+
+      {selectedTab && <Text.Large>SELECTED TAB {selectedTab}</Text.Large>}
+
+      <FeaturedSlider recipeList={mockedFeaturedCards} />
     </View>
   );
 };

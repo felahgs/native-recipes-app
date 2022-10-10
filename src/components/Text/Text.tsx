@@ -4,10 +4,9 @@ import React from "react";
 import { useTheme } from "hooks/useTheme";
 
 import { TextType } from "./types";
-
 import styles from "./styles";
 
-const _generateText = (props: TextType, textStyle: StyleProp<{}>) => {
+const _generateText = (props: TextType, style: StyleProp<{}>) => {
   const theme = useTheme();
   const { color, bold } = props;
   const boldStyle = bold ? styles.bold : null;
@@ -16,10 +15,7 @@ const _generateText = (props: TextType, textStyle: StyleProp<{}>) => {
   };
 
   return (
-    <NativeText
-      style={[styles.base, textStyle, boldStyle, fontColor]}
-      {...props}
-    />
+    <NativeText style={[styles.base, style, boldStyle, fontColor]} {...props} />
   );
 };
 
