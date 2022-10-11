@@ -6,6 +6,7 @@ import SearchInput from "components/SearchInput";
 import Tabs from "components/Tabs";
 
 import FeaturedSlider from "./components/FeaturedSlider";
+import NewCardSlider from "./components/NewRecipesSlider";
 
 import styles from "./styles";
 
@@ -37,6 +38,13 @@ const Home = () => {
     { title: "Crunch Nut Coleslaw", time: 10 },
   ];
 
+  const mockedNewCards = [
+    { title: "Classic Greek Salad", time: 15 },
+    { title: "Crunch Nut Coleslaw", time: 10 },
+    { title: "Classic Greek Salad", time: 15 },
+    { title: "Crunch Nut Coleslaw", time: 10 },
+  ];
+
   return (
     <View style={styles.container}>
       <View style={styles.user}>
@@ -54,6 +62,7 @@ const Home = () => {
       {selectedTab && <Text.Large>SELECTED TAB {selectedTab}</Text.Large>}
 
       <FeaturedSlider recipeList={mockedFeaturedCards} />
+      <NewCardSlider recipeList={mockedNewCards} />
     </View>
   );
 };
