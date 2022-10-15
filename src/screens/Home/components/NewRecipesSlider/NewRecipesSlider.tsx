@@ -7,9 +7,13 @@ import { NewRecipesSliderProps } from "./types";
 
 export default function NewRecipesSlider({
   recipeList,
+  style,
 }: NewRecipesSliderProps) {
   return (
-    <ScrollView showsHorizontalScrollIndicator={false} horizontal={true}>
+    <ScrollView
+      contentContainerStyle={style}
+      showsHorizontalScrollIndicator={false}
+      horizontal={true}>
       {recipeList.map((card, idx) => (
         <NewCard
           key={`${card.title}-${idx}`}

@@ -6,7 +6,7 @@ export default StyleSheet.create({
     height: 95,
     width: 251,
     borderRadius: 12,
-    marginTop: 40,
+    marginTop: 30,
     marginRight: 15,
     padding: 15,
     flexDirection: "row",
@@ -27,6 +27,9 @@ export default StyleSheet.create({
   },
   time: {
     flexDirection: "row",
+  },
+  icon: {
+    paddingHorizontal: 5,
   },
   image: {
     position: "absolute",

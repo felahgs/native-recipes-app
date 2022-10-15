@@ -4,10 +4,17 @@ import React from "react";
 import FeaturedCard from "../RecipeCards/FeaturedCard/FeaturedCard";
 
 import { FeaturedSliderProps } from "./types";
+import styles from "./styles";
 
-export default function FeaturedSlider({ recipeList }: FeaturedSliderProps) {
+export default function FeaturedSlider({
+  recipeList,
+  style,
+}: FeaturedSliderProps) {
   return (
-    <ScrollView showsHorizontalScrollIndicator={false} horizontal={true}>
+    <ScrollView
+      contentContainerStyle={[style, styles.container]}
+      showsHorizontalScrollIndicator={false}
+      horizontal={true}>
       {recipeList.map((card, idx) => (
         <FeaturedCard
           key={`${card.title}-${idx}`}

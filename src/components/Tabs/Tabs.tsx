@@ -6,7 +6,7 @@ import Button from "components/Button";
 import styles from "./styles";
 import { TabsProps } from "./types";
 
-const Tabs = ({ values }: TabsProps) => {
+const Tabs = ({ values, style }: TabsProps) => {
   const [selected, setSelected] = useState<number>();
 
   const handlePress = (idx: number, action: () => void) => {
@@ -18,7 +18,7 @@ const Tabs = ({ values }: TabsProps) => {
     <ScrollView
       showsHorizontalScrollIndicator={false}
       horizontal={true}
-      style={styles.container}>
+      contentContainerStyle={[style, styles.container]}>
       {values.map((value, idx) => (
         <Button
           key={`${value.name}-${idx}`}

@@ -23,7 +23,7 @@ export default function NewCard({ time, name }: NewCardProps) {
         <Image style={styles.image} source={mockedImage} />
         <View style={styles.time}>
           <Icon
-            style={{ paddingHorizontal: 5 }}
+            style={styles.icon}
             size={15}
             color={timeColor}
             name={"timer"}

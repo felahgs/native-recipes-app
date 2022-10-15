@@ -47,22 +47,36 @@ const Home = () => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.user}>
-        <Text.Large bold>Olá Usuário</Text.Large>
-        <Text.Smaller>O que vamos cozinhar hoje?</Text.Smaller>
+      <View style={styles.header}>
+        <View style={styles.user}>
+          <Text.Large bold>Olá Usuário</Text.Large>
+          <Text.Smaller>O que vamos cozinhar hoje?</Text.Smaller>
+        </View>
+
+        <SearchInput
+          onFilter={() => console.log("TODO: filter")}
+          placeholder="Procure por uma receita ou ingrediente"
+        />
+      </View>
+      <Tabs style={styles.defaultPadding} values={mockedTabs} />
+
+      <View style={styles.defaultPadding}>
+        {selectedTab && <Text.Large>SELECTED TAB {selectedTab}</Text.Large>}
       </View>
 
-      <SearchInput
-        onFilter={() => console.log("TODO: filter")}
-        placeholder="Procure por uma receita ou ingrediente"
+      <FeaturedSlider
+        style={styles.defaultPadding}
+        recipeList={mockedFeaturedCards}
       />
 
-      <Tabs values={mockedTabs} />
+      <View style={styles.defaultPadding}>
+        <Text bold> Novas Receitas </Text>
+      </View>
 
-      {selectedTab && <Text.Large>SELECTED TAB {selectedTab}</Text.Large>}
-
-      <FeaturedSlider recipeList={mockedFeaturedCards} />
-      <NewCardSlider recipeList={mockedNewCards} />
+      <NewCardSlider
+        style={styles.defaultPadding}
+        recipeList={mockedNewCards}
+      />
     </View>
   );
 };

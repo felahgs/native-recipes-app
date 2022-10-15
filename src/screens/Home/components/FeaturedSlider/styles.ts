@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
   container: {
-    margin: 30,
+    marginBottom: 40,
     alignContent: "center",
   },
   user: {
@@ -10,6 +10,5 @@ export default StyleSheet.create({
   },
   featuredSlider: {
     flexDirection: "row",
-    marginVertical: 10,
   },
 });
