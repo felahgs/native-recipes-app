@@ -30,8 +30,8 @@ const TextInput = (props: SearchInputProps) => {
   };
 
   return (
-    <View style={styles.searchContainer}>
-      <View style={[styles.inputContainer, passedStyle, colors]}>
+    <View style={[styles.searchContainer, passedStyle]}>
+      <View style={[styles.inputContainer, colors]}>
         <Icon name="search" color={theme.colors.neutral.gray4} />
         <NativeTextInput
           value={value}
