@@ -6,14 +6,15 @@ import Splash from "screens/Splash";
 import SignIn from "screens/SignIn";
 import SignUp from "screens/SignUp";
 import Home from "screens/Home";
+import Search from "screens/Search";
 import { LoginRoutesNames } from "constants/routes";
 
 const Stack = createNativeStackNavigator();
 
 const LoginRoutes = () => {
-  const { SPLASH, SIGNIN, SIGNUP, HOME } = LoginRoutesNames;
+  const { SPLASH, SIGNIN, SIGNUP, HOME, SEARCH } = LoginRoutesNames;
   return (
-    <Stack.Navigator>
+    <React.Fragment>
       <Stack.Screen
         name={SPLASH}
         component={Splash}
@@ -34,7 +35,12 @@ const LoginRoutes = () => {
         component={Home}
         options={{ headerShown: false }}
       />
-    </Stack.Navigator>
+      <Stack.Screen
+        name={SEARCH}
+        component={Search}
+        options={{ headerShown: false }}
+      />
+    </React.Fragment>
   );
 };
 

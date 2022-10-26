@@ -5,8 +5,8 @@ import { NavigationContainer } from "@react-navigation/native";
 
 import { ThemeContext } from "hooks/useTheme";
 import DefaultTheme from "theme/defaultTheme";
-// import SignIn from "screens/SignIn";
-import { LoginRoutes } from "routes";
+// import Search from "screens/Search";
+import { AppRoutes } from "routes";
 
 const styles = StyleSheet.create({
   screen: {
@@ -23,7 +23,8 @@ const App = () => {
       <SafeAreaView style={styles.screen}>
         <StatusBar />
         <ThemeContext.Provider value={DefaultTheme}>
-          <LoginRoutes />
+          <AppRoutes />
+          {/* <Search /> */}
         </ThemeContext.Provider>
       </SafeAreaView>
     </NavigationContainer>

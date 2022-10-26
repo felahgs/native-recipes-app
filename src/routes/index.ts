@@ -1,3 +1,3 @@
-import LoginRoutes from "./LoginRoutes";
+import AppRoutes from "./AppRoutes";
 
-export { LoginRoutes };
+export { AppRoutes };

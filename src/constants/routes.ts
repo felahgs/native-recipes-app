@@ -1,6 +1,7 @@
 export const LoginRoutesNames = {
-  SPLASH: "Login: Splash Screen",
-  SIGNUP: "Login: SignUp Screen",
-  SIGNIN: "Login: SignIn Screen",
-  HOME: "Login: Home Screen",
+  SPLASH: "Splash Screen",
+  SIGNUP: "SignUp Screen",
+  SIGNIN: "SignIn Screen",
+  HOME: "Home Screen",
+  SEARCH: "Search Screen",
 };
