@@ -14,7 +14,7 @@ const Stack = createNativeStackNavigator();
 const LoginRoutes = () => {
   const { SPLASH, SIGNIN, SIGNUP, HOME, SEARCH } = LoginRoutesNames;
   return (
-    <React.Fragment>
+    <Stack.Navigator>
       <Stack.Screen
         name={SPLASH}
         component={Splash}
@@ -40,7 +40,7 @@ const LoginRoutes = () => {
         component={Search}
         options={{ headerShown: false }}
       />
-    </React.Fragment>
+    </Stack.Navigator>
   );
 };
 
