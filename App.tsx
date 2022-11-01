@@ -6,7 +6,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { ThemeContext } from "hooks/useTheme";
 import DefaultTheme from "theme/defaultTheme";
 // import Search from "screens/Search";
-import { AppRoutes } from "routes";
+import Recipe from "screens/Recipe";
+// import { AppRoutes } from "routes";
 
 const styles = StyleSheet.create({
   screen: {
@@ -23,8 +24,8 @@ const App = () => {
       <SafeAreaView style={styles.screen}>
         <StatusBar />
         <ThemeContext.Provider value={DefaultTheme}>
-          <AppRoutes />
-          {/* <Search /> */}
+          {/* <AppRoutes /> */}
+          <Recipe />
         </ThemeContext.Provider>
       </SafeAreaView>
     </NavigationContainer>
