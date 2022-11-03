@@ -13,8 +13,32 @@ export default StyleSheet.create({
     resizeMode: "stretch",
     borderRadius: 10,
   },
+  tabButtons: {
+    width: "50%",
+  },
+  tabs: {
+    flex: 1,
+  },
+  text: {
+    display: "flex",
+    alignContent: "center",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  title: {
+    margin: 10,
+  },
   content: {
-    // flex: 1,
     margin: 0,
+  },
+  details: {
+    justifyContent: "space-between",
+    alignItems: "center",
+    flexDirection: "row",
+    marginVertical: 20,
+  },
+  servings: {
+    flexDirection: "row",
+    alignItems: "center",
   },
 });

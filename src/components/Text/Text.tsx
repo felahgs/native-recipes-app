@@ -15,7 +15,10 @@ const _generateText = (props: TextType, style: StyleProp<{}>) => {
   };
 
   return (
-    <NativeText style={[styles.base, style, boldStyle, fontColor]} {...props} />
+    <NativeText
+      style={[props.passedStyle, styles.base, style, boldStyle, fontColor]}
+      {...props}
+    />
   );
 };
 

@@ -6,8 +6,8 @@ import Button from "components/Button";
 import styles from "./styles";
 import { TabsProps } from "./types";
 
-const Tabs = ({ values, style }: TabsProps) => {
-  const [selected, setSelected] = useState<number>();
+const Tabs = ({ values, style, buttonStyle }: TabsProps) => {
+  const [selected, setSelected] = useState<number>(0);
 
   const handlePress = (idx: number, action: () => void) => {
     action();
@@ -21,6 +21,7 @@ const Tabs = ({ values, style }: TabsProps) => {
       contentContainerStyle={[style, styles.container]}>
       {values.map((value, idx) => (
         <Button
+          passedStyle={buttonStyle}
           key={`${value.name}-${idx}`}
           small
           secondary={selected !== idx}
