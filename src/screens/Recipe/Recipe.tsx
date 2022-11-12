@@ -18,7 +18,7 @@ const Recipe = ({}) => {
   const textColor = theme.colors.neutral.gray3;
 
   const pageTabs = [
-    { name: "Receita", action: () => setSelectedTab(0) },
+    { name: "Preparo", action: () => setSelectedTab(0) },
     { name: "Ingredientes", action: () => setSelectedTab(1) },
   ];
 
@@ -53,7 +53,7 @@ const Recipe = ({}) => {
 
       <View style={styles.details}>
         <View style={styles.servings}>
-          <Icon name="timer" />
+          <Icon style={styles.icon} name="serve" />
           {recipe.servings && (
             <Text.Small passedStyle={styles.text} color={textColor}>
               {`${recipe.servings}`}

@@ -25,6 +25,9 @@ export default StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  icon: {
+    paddingRight: 10,
+  },
   title: {
     margin: 10,
   },
