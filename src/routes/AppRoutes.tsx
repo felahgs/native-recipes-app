@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Splash from "screens/Splash";
 import SignIn from "screens/SignIn";
 import SignUp from "screens/SignUp";
+import Recipe from "screens/Recipe";
 import Home from "screens/Home";
 import Search from "screens/Search";
 import { LoginRoutesNames } from "constants/routes";
@@ -12,7 +13,7 @@ import { LoginRoutesNames } from "constants/routes";
 const Stack = createNativeStackNavigator();
 
 const LoginRoutes = () => {
-  const { SPLASH, SIGNIN, SIGNUP, HOME, SEARCH } = LoginRoutesNames;
+  const { SPLASH, SIGNIN, SIGNUP, HOME, SEARCH, RECIPE } = LoginRoutesNames;
   return (
     <Stack.Navigator>
       <Stack.Screen
@@ -38,6 +39,11 @@ const LoginRoutes = () => {
       <Stack.Screen
         name={SEARCH}
         component={Search}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name={RECIPE}
+        component={Recipe}
         options={{ headerShown: false }}
       />
     </Stack.Navigator>

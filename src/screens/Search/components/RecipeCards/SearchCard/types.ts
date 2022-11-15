@@ -1,3 +1,9 @@
 export interface FeaturedCardProps {
-  title: string;
+  recipe: {
+    id: string;
+    name: string;
+    ingredients: string[];
+    preparation: string[];
+    servings?: string;
+  };
 }

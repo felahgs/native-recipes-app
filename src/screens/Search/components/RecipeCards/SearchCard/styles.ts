@@ -8,6 +8,12 @@ export default StyleSheet.create({
     justifyContent: "flex-end",
     marginBottom: 15,
   },
+  mask: {
+    width: "100%",
+    height: "100%",
+    position: "absolute",
+    borderRadius: 10,
+  },
   title: {
     position: "absolute",
     paddingBottom: 15,

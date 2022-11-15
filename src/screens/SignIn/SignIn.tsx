@@ -13,7 +13,7 @@ import * as T from "./types";
 
 const SignIn = ({ navigation }: T.SignInScreenProps) => {
   const theme = useTheme();
-  const { SIGNUP, HOME } = LoginRoutesNames;
+  const { SIGNUP, HOME, SEARCH } = LoginRoutesNames;
 
   return (
     <View style={styles.container}>
@@ -24,7 +24,7 @@ const SignIn = ({ navigation }: T.SignInScreenProps) => {
         <Text.Large> Bem vindo de volta!</Text.Large>
       </View>
 
-      <LoginForm redirect={() => navigation.navigate(HOME)} />
+      <LoginForm redirect={() => navigation.navigate(SEARCH)} />
 
       <SocialMediaLogin />
 

@@ -1,8 +1,9 @@
 import { ScrollView, Image, View } from "react-native";
 import React, { useState } from "react";
 
+import { useRoute } from "@react-navigation/native";
+
 import mockedImage from "mocks/Recipe/recipe_image-2.png";
-import recipe from "mocks/Recipe/recipe_mock.json";
 import Text from "components/Text";
 import Tabs from "components/Tabs";
 import Icon from "components/Icon";
@@ -11,11 +12,15 @@ import { useTheme } from "hooks/useTheme";
 import Step from "./Components/Step";
 
 import styles from "./styles";
+import { RecipesProps } from "./types";
 
-const Recipe = ({}) => {
+const Recipe = () => {
   const [selectedTab, setSelectedTab] = useState(0);
   const theme = useTheme();
+  const route = useRoute();
   const textColor = theme.colors.neutral.gray3;
+
+  const { recipe } = route.params as RecipesProps;
 
   const pageTabs = [
     { name: "Preparo", action: () => setSelectedTab(0) },
@@ -53,7 +58,7 @@ const Recipe = ({}) => {
 
       <View style={styles.details}>
         <View style={styles.servings}>
-          <Icon style={styles.icon} name="serve" />
+          {recipe.servings && <Icon style={styles.icon} name="serve" />}
           {recipe.servings && (
             <Text.Small passedStyle={styles.text} color={textColor}>
               {`${recipe.servings}`}

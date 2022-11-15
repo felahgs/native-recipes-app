@@ -9,8 +9,8 @@ import styles from "./styles";
 export default function FeaturedSlider({ recipesList }: FeaturedSliderProps) {
   return (
     <View style={styles.container}>
-      {recipesList.map((item, idx) => {
-        return <SearchCard key={`${item.name}_${idx}`} title={item.name} />;
+      {recipesList.map(recipe => {
+        return <SearchCard key={recipe.id} recipe={recipe} />;
       })}
     </View>
   );

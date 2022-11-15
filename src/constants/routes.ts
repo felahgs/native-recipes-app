@@ -4,4 +4,5 @@ export const LoginRoutesNames = {
   SIGNIN: "SignIn Screen",
   HOME: "Home Screen",
   SEARCH: "Search Screen",
+  RECIPE: "Recipe Screen",
 };

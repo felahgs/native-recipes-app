@@ -3,31 +3,32 @@ import React from "react";
 
 import Text from "components/Text";
 import SearchInput from "components/SearchInput";
+import mockedRecipes from "mocks/api/recipes.json";
 
 import CardsList from "./components/CardsList";
 
 import styles from "./styles";
 
 const Home = () => {
-  const mockedCards = [
-    { name: "Taditional spare ribs backed" },
-    { name: "Spicy roasted chicken" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-    { name: "Taditional spare ribs backed" },
-  ];
+  // const mockedCards = [
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Spicy roasted chicken" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  //   { name: "Taditional spare ribs backed" },
+  // ];
 
   return (
     <ScrollView style={styles.container}>
@@ -45,7 +46,7 @@ const Home = () => {
           <Text bold>Resultados</Text>
         </View>
 
-        <CardsList recipesList={mockedCards} />
+        <CardsList recipesList={mockedRecipes} />
       </View>
     </ScrollView>
   );
