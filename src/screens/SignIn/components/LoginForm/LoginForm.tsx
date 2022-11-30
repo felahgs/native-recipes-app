@@ -5,15 +5,20 @@ import TextInput from "components/TextInput";
 import Text from "components/Text";
 import Button from "components/Button";
 import { useTheme } from "hooks/useTheme";
+import { useAuth } from "hooks/auth";
 
 import styles from "./styles";
-import { LoginFormProps } from "./types";
+// import { LoginFormProps } from "./types";
 
-const LoginForm = ({ redirect }: LoginFormProps) => {
+const LoginForm = () => {
   const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
 
   const theme = useTheme();
+  const { signIn } = useAuth();
+  const isValid = !!login && !!password;
+
+  const handleSignin = () => signIn({ email: login, password });
 
   return (
     <View>
@@ -34,12 +39,16 @@ const LoginForm = ({ redirect }: LoginFormProps) => {
       />
 
       <Pressable onPress={() => console.log("TODO: go to forget password")}>
-        <Text.Smaller color={theme.secondary}>Esqueceu a senha?</Text.Smaller>
+        <Text.Smaller
+          passedStyle={styles.forgotPassword}
+          color={theme.secondary}>
+          Esqueceu a senha?
+        </Text.Smaller>
       </Pressable>
 
       <Button
-        // TODO: propper handle login
-        onPress={() => redirect()}
+        onPress={handleSignin}
+        disabled={!isValid}
         accessibilityLabel="Fazer cadastro de conta"
         title="Entrar"
         icon="arrow-right"

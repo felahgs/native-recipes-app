@@ -29,7 +29,7 @@ interface SignUpData {
   password: string;
 }
 
-interface RecoverPasswordData {
+interface RecoveryPasswordData {
   email: string;
 }
 
@@ -41,7 +41,7 @@ interface IUser {
 interface AuthContextData {
   signIn: ({ email, password }: SignInData) => Promise<void>;
   signUp: ({ username, email, password }: SignUpData) => Promise<void>;
-  recoverPassword: ({ email }: RecoverPasswordData) => Promise<void>;
+  recoveryPassword: ({ email }: RecoveryPasswordData) => Promise<void>;
   signOut: () => Promise<void>;
   isLoading: boolean;
   user: IUser | null;
@@ -114,7 +114,10 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
 
   const signIn = async ({ email, password }: SignInData) => {
     if (!email || !password) {
-      return Alert.alert("SignIn", "E-mail e senha estão em branco.");
+      return Alert.alert(
+        "SignIn",
+        "Digite o e-mail e a senha antes de prosseguir.",
+      );
     }
 
     setIsLoading(true);
@@ -147,18 +150,20 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
       })
       .catch(error => {
         const { code } = error;
+        console.log("login error: " + code);
 
         if (code === "auth/wrong-password") {
-          return Alert.alert(
-            "SignIn",
-            "The password is invalid or the user does not have a password.",
-          );
+          return Alert.alert("SignIn", "A senha não está correta.");
         }
 
         if (code === "auth/user-not-found") {
+          Alert.alert("SignIn", "Email não cadastrado, usuário não existe.");
+        }
+
+        if (code === "auth/invalid-email") {
           Alert.alert(
             "SignIn",
-            "There is no user record corresponding to this e-mail.",
+            "Formato de e-mail inválido, verifique se digitou corretamente.",
           );
         }
       })
@@ -175,7 +180,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
     navigation.navigate(SIGNIN);
   };
 
-  const recoverPassword = async ({ email }: RecoverPasswordData) => {
+  const recoveryPassword = async ({ email }: RecoveryPasswordData) => {
     if (!email) {
       return Alert.alert("Recovery password", "E-mail is required.");
     }
@@ -228,7 +233,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
 
   return (
     <AuthContext.Provider
-      value={{ signUp, signIn, signOut, recoverPassword, isLoading, user }}>
+      value={{ signUp, signIn, signOut, recoveryPassword, isLoading, user }}>
       {children}
     </AuthContext.Provider>
   );

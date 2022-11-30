@@ -8,4 +8,8 @@ export default StyleSheet.create({
   button: {
     marginTop: 25,
   },
+  forgotPassword: {
+    marginTop: -18,
+    marginLeft: 5,
+  },
 });
