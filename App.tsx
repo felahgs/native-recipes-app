@@ -8,6 +8,7 @@ import DefaultTheme from "theme/defaultTheme";
 import Search from "screens/Search";
 // import Recipe from "screens/Recipe";
 import { AppRoutes } from "routes";
+import { AuthProvider } from "hooks/auth";
 
 const styles = StyleSheet.create({
   screen: {
@@ -21,14 +22,16 @@ const styles = StyleSheet.create({
 const App = () => {
   return (
     <NavigationContainer>
-      <SafeAreaView style={styles.screen}>
-        <StatusBar />
-        <ThemeContext.Provider value={DefaultTheme}>
-          <AppRoutes />
-          {/* <Recipe /> */}
-          {/* <Search /> */}
-        </ThemeContext.Provider>
-      </SafeAreaView>
+      <AuthProvider>
+        <SafeAreaView style={styles.screen}>
+          <StatusBar />
+          <ThemeContext.Provider value={DefaultTheme}>
+            <AppRoutes />
+            {/* <Recipe /> */}
+            {/* <Search /> */}
+          </ThemeContext.Provider>
+        </SafeAreaView>
+      </AuthProvider>
     </NavigationContainer>
   );
 };
