@@ -4,7 +4,7 @@ import React from "react";
 import Text from "components/Text";
 import { useTheme } from "hooks/useTheme";
 import SocialMediaLogin from "components/SocialMediaLogin";
-import { LoginRoutesNames } from "constants/routes";
+import { StackRoutes } from "constants/routes";
 
 import LoginForm from "./components/LoginForm";
 
@@ -13,7 +13,7 @@ import * as T from "./types";
 
 const SignIn = ({ navigation }: T.SignInScreenProps) => {
   const theme = useTheme();
-  const { SIGNUP, HOME, SEARCH } = LoginRoutesNames;
+  const { SIGNUP, HOME, SEARCH } = StackRoutes;
 
   return (
     <View style={styles.container}>

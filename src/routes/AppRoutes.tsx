@@ -8,12 +8,12 @@ import SignUp from "screens/SignUp";
 import Recipe from "screens/Recipe";
 import Home from "screens/Home";
 import Search from "screens/Search";
-import { LoginRoutesNames } from "constants/routes";
+import { StackRoutes } from "constants/routes";
 
 const Stack = createNativeStackNavigator();
 
 const LoginRoutes = () => {
-  const { SPLASH, SIGNIN, SIGNUP, HOME, SEARCH, RECIPE } = LoginRoutesNames;
+  const { SPLASH, SIGNIN, SIGNUP, HOME, SEARCH, RECIPE } = StackRoutes;
   return (
     <Stack.Navigator>
       <Stack.Screen
@@ -41,11 +41,7 @@ const LoginRoutes = () => {
         component={Search}
         options={{ headerShown: false }}
       />
-      <Stack.Screen
-        name={RECIPE}
-        component={Recipe}
-        options={{ headerShown: false }}
-      />
+      <Stack.Screen name={RECIPE} component={Recipe} />
     </Stack.Navigator>
   );
 };

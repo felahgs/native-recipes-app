@@ -7,13 +7,13 @@ import Text from "components/Text";
 import LogoImage from "assets/images/logo.svg";
 import backgroundImage from "assets/images/splash-background.jpg";
 import { useTheme } from "hooks/useTheme";
-import { LoginRoutesNames } from "constants/routes";
+import { StackRoutes } from "constants/routes";
 
 import styles from "./styles";
 import * as T from "./types";
 
 const Splash = ({ navigation }: T.SplashScreenProps) => {
-  const { SIGNIN } = LoginRoutesNames;
+  const { SIGNIN } = StackRoutes;
   const theme = useTheme();
 
   const Logo = () => (

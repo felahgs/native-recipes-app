@@ -4,7 +4,7 @@ import LinearGradient from "react-native-linear-gradient";
 
 import { useNavigation } from "@react-navigation/native";
 
-import { LoginRoutesNames } from "constants/routes";
+import { StackRoutes } from "constants/routes";
 import mockedImage from "mocks/Search/recipe-search.png";
 import Text from "components/Text";
 import { useTheme } from "hooks/useTheme";
@@ -13,7 +13,7 @@ import styles from "./styles";
 import { FeaturedCardProps } from "./types";
 
 export default function FeaturedCard({ recipe }: FeaturedCardProps) {
-  const { RECIPE } = LoginRoutesNames;
+  const { RECIPE } = StackRoutes;
   const theme = useTheme();
   const textColor = theme.colors.neutral.white;
   // const navigation = useNavigation<NativeStackNavigationProp<PageStackProps>>();
