@@ -24,15 +24,8 @@ const RegistrationForm = () => {
 
   const handleSignUp = () => {
     signUp({ username, email, password });
-    // console.log(`
-    //   username: ${username};
-    //   email: ${email};
-    //   password: ${password};
-    //   confirmPassword: ${confirmPassword};
-    // `);
   };
 
-  // Adicionar um form validator apropriado
   return (
     <View>
       <Text>Name</Text>

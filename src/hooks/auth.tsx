@@ -29,7 +29,7 @@ interface SignUpData {
   password: string;
 }
 
-interface RecoveryPasswordData {
+interface RecoverPasswordData {
   email: string;
 }
 
@@ -41,14 +41,14 @@ interface IUser {
 interface AuthContextData {
   signIn: ({ email, password }: SignInData) => Promise<void>;
   signUp: ({ username, email, password }: SignUpData) => Promise<void>;
-  recoveryPassword: ({ email }: RecoveryPasswordData) => Promise<void>;
+  recoverPassword: ({ email }: RecoverPasswordData) => Promise<void>;
   signOut: () => Promise<void>;
   isLoading: boolean;
   user: IUser | null;
 }
 
 const USER_COLLECTION = "@waterreminder:users";
-const { HOME } = StackRoutes;
+const { HOME, SIGNIN } = StackRoutes;
 
 export const AuthContext = createContext({} as AuthContextData);
 
@@ -67,10 +67,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
     }
 
     if (password.length < 6) {
-      return Alert.alert(
-        "SignUp",
-        "Password cannot be less than 6 characters.",
-      );
+      return Alert.alert("SignUp", "Senha deve ter pelo menos 6 caracteres.");
     }
 
     try {
@@ -91,7 +88,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
               email,
             })
             .then(() => {
-              Alert.alert("SignUp", "Account created with sucess!", [
+              Alert.alert("SignUp", "Nova conta criada com sucesso!", [
                 {
                   text: "Ok",
                   onPress: () => navigation.navigate(HOME),
@@ -105,7 +102,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
           const { code } = error;
 
           if (code === "auth/email-already-in-use") {
-            return Alert.alert("SignUp", "E-mail is already in use");
+            return Alert.alert("SignUp", "E-mail já está cadastrado");
           }
           setIsLoading(false);
         })
@@ -117,7 +114,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
 
   const signIn = async ({ email, password }: SignInData) => {
     if (!email || !password) {
-      return Alert.alert("SignIn", "E-mail and password is required.");
+      return Alert.alert("SignIn", "E-mail e senha estão em branco.");
     }
 
     setIsLoading(true);
@@ -142,7 +139,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
               setUser(userData);
 
               AsyncStorage.setItem(USER_COLLECTION, JSON.stringify(userData));
-              navigation.navigate("Home");
+              navigation.navigate(HOME);
             }
 
             setIsLoading(false);
@@ -175,10 +172,10 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
     setUser(null);
     setIsLoading(false);
 
-    navigation.navigate("SignIn");
+    navigation.navigate(SIGNIN);
   };
 
-  const recoveryPassword = async ({ email }: RecoveryPasswordData) => {
+  const recoverPassword = async ({ email }: RecoverPasswordData) => {
     if (!email) {
       return Alert.alert("Recovery password", "E-mail is required.");
     }
@@ -188,11 +185,11 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
       .then(() => {
         Alert.alert(
           "Recovery password",
-          "We have sent a link to your email to reset your password.",
+          "Mandamos um link para alterar seu password por meio do email cadastrado.",
           [
             {
               text: "Ok",
-              onPress: () => navigation.navigate("SignIn"),
+              onPress: () => navigation.navigate(SIGNIN),
             },
           ],
         );
@@ -203,7 +200,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
         if (code === "auth/user-not-found") {
           Alert.alert(
             "Recovery password",
-            "It was not possible to send the password reset to your e-mail, because the e-mail you entered was not registered.",
+            "Não foi possível enviar o e-mail de recuperação de senha, pois esse e-mail não está cadastrado.",
           );
         }
       });
@@ -216,7 +213,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
 
     if (storedUser) {
       const userData = JSON.parse(storedUser) as IUser;
-      navigation.navigate("Home");
+      navigation.navigate(HOME);
 
       setUser(userData);
     }
@@ -231,7 +228,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
 
   return (
     <AuthContext.Provider
-      value={{ signUp, signIn, signOut, recoveryPassword, isLoading, user }}>
+      value={{ signUp, signIn, signOut, recoverPassword, isLoading, user }}>
       {children}
     </AuthContext.Provider>
   );
