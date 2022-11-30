@@ -6,6 +6,7 @@ export interface ButtonType
     React.RefAttributes<View> {
   passedStyle?: StyleProp<{}>;
   title?: string;
+  onPress: () => void;
   secondary?: boolean;
   icon?: string;
   small?: boolean;
