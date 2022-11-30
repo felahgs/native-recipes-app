@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Text from "components/Text";
 import SearchInput from "components/SearchInput";
 import Tabs from "components/Tabs";
+import { useAuth } from "hooks/auth";
+import { captalize } from "utils/string";
 
 import FeaturedSlider from "./components/FeaturedSlider";
 import NewCardSlider from "./components/NewRecipesSlider";
@@ -12,6 +14,9 @@ import styles from "./styles";
 
 const Home = () => {
   const [selectedTab, setSelected] = useState<number>();
+
+  const { user } = useAuth();
+  const username = user ? captalize(user.username) : null;
 
   const mockedTabs = [
     { name: "Tab 1", action: () => setSelected(1) },
@@ -49,7 +54,7 @@ const Home = () => {
     <View style={styles.container}>
       <View style={styles.header}>
         <View style={styles.user}>
-          <Text.Large bold>Olá Usuário</Text.Large>
+          <Text.Large bold>Olá {username ? username + "!" : "!"}</Text.Large>
           <Text.Smaller>O que vamos cozinhar hoje?</Text.Smaller>
         </View>
 

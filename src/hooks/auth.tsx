@@ -33,7 +33,7 @@ interface RecoveryPasswordData {
   email: string;
 }
 
-interface IUser {
+interface UserProps {
   id: string;
   username: string;
 }
@@ -44,7 +44,7 @@ interface AuthContextData {
   recoveryPassword: ({ email }: RecoveryPasswordData) => Promise<void>;
   signOut: () => Promise<void>;
   isLoading: boolean;
-  user: IUser | null;
+  user: UserProps | null;
 }
 
 const USER_COLLECTION = "@waterreminder:users";
@@ -54,7 +54,7 @@ export const AuthContext = createContext({} as AuthContextData);
 
 const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
   const [isLoading, setIsLoading] = useState(false);
-  const [user, setUser] = useState<IUser | null>(null);
+  const [user, setUser] = useState<UserProps | null>(null);
 
   const navigation = useNavigation<NativeStackNavigationProp<any>>();
 
@@ -131,7 +131,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
           .doc(uid)
           .get()
           .then(async profile => {
-            const { id, username } = profile.data() as IUser;
+            const { id, username } = profile.data() as UserProps;
 
             if (profile.exists) {
               const userData = {
@@ -217,7 +217,7 @@ const AuthProvider = ({ children }: AuthProviderProps): JSX.Element => {
     const storedUser = await AsyncStorage.getItem(USER_COLLECTION);
 
     if (storedUser) {
-      const userData = JSON.parse(storedUser) as IUser;
+      const userData = JSON.parse(storedUser) as UserProps;
       navigation.navigate(HOME);
 
       setUser(userData);
