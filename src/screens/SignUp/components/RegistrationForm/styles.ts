@@ -8,4 +8,13 @@ export default StyleSheet.create({
   button: {
     marginTop: 25,
   },
+  inputWithMessage: {
+    position: "relative",
+  },
+  inlineError: {
+    position: "absolute",
+    bottom: 0,
+    // marginTop: -20,
+    marginLeft: 5,
+  },
 });
