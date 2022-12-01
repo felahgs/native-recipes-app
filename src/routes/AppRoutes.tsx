@@ -6,7 +6,7 @@ import Splash from "screens/Splash";
 import SignIn from "screens/SignIn";
 import SignUp from "screens/SignUp";
 import Recipe from "screens/Recipe";
-import Home from "screens/Home";
+// import Home from "screens/Home";
 import Search from "screens/Search";
 import { StackRoutes } from "constants/routes";
 
@@ -33,7 +33,8 @@ const LoginRoutes = () => {
       />
       <Stack.Screen
         name={HOME}
-        component={Home}
+        // component={Home}
+        component={Search}
         options={{ headerShown: false }}
       />
       <Stack.Screen

@@ -58,7 +58,7 @@ const Recipe = () => {
 
       <View style={styles.details}>
         <View style={styles.servings}>
-          {recipe.servings && <Icon style={styles.icon} name="serve" />}
+          {recipe.servings && <Icon style={styles.icon} name="serving" />}
           {recipe.servings && (
             <Text.Small passedStyle={styles.text} color={textColor}>
               {`${recipe.servings}`}
