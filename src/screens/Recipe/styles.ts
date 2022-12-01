@@ -10,7 +10,7 @@ export default StyleSheet.create({
     height: 200,
     width: "100%",
     marginBottom: 10,
-    resizeMode: "stretch",
+    resizeMode: "cover",
     borderRadius: 10,
   },
   tabButtons: {
@@ -42,6 +42,7 @@ export default StyleSheet.create({
   },
   servings: {
     flexDirection: "row",
+    maxWidth: "50%",
     alignItems: "center",
   },
 });

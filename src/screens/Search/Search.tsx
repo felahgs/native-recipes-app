@@ -10,26 +10,6 @@ import CardsList from "./components/CardsList";
 import styles from "./styles";
 
 const Home = () => {
-  // const mockedCards = [
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Spicy roasted chicken" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  //   { name: "Taditional spare ribs backed" },
-  // ];
-
   return (
     <ScrollView style={styles.container}>
       <View style={styles.header}>

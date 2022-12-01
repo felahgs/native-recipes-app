@@ -2,6 +2,7 @@
   {
     "id": "5744eff20ca7832b5c745a48",
     "name": "Brownie de Chocolate com Gengibre",
+    "img_url": "https://s2.glbimg.com/uJwuIWTMqEh9W2C735k9BIGt5VY=/0x0:690x570/984x0/smart/filters:strip_icc()/s2.glbimg.com/53aMswIsfETVMgcFFqJ1LgC4DGc%3D/s.glbimg.com/et/gs/f/original/2016/05/20/brownie-de-chocolate-com-ge.jpg",
     "ingredients": [
         "50 g farinha de milho fina",
         "10 g de cacau em pó",
@@ -36,6 +37,7 @@
 {
     "id": "5744eff20ca7832b5c745a49",
     "name": "Hamburquibe",
+    "img_url": "https://i0.wp.com/anamariabraga.globo.com/wp-content/uploads/2022/01/hamburquibe.jpg?resize=1024%2C576&ssl=1",
     "ingredients": [
         "RECHEIO",
         "2 colheres (sopa) de azeite1 colher (sopa) de alho picadinho100g de cebola picada500g de carne moída60g de extrato de tomate1⁄2 xícara (chá) de águaSalsinha a gostoPimenta síria a gostoSal a gosto",
@@ -58,6 +60,7 @@
 {
     "id": "5744eff20ca7832b5c745a4a",
     "name": "Peixe Delícia de Olinda da Eliane",
+    "img_url": "https://i0.wp.com/anamariabraga.globo.com/wp-content/uploads/2016/11/Peixe-delicia-de-olinda.jpg?resize=1024%2C576&ssl=1",
     "ingredients": [
         "4 filés de peixe branco limpo (aproximadamente 120g cada)",
         "8 bananas pacovã, prata ou nanica maduras e firmes",
@@ -79,7 +82,8 @@
 },
 {
     "id": "5744eff20ca7832b5c745a4b",
-    "name": "Bombom de cerejas do Flavio Federico",
+    "name": "Bombom de cerejas",
+    "img_url": "https://s2.glbimg.com/laWfFhRW4wkeq_64TT6WqHevaUA=/0x0:720x850/984x0/smart/filters:strip_icc()/s2.glbimg.com/g56YNdp5g-tBkvdQplNKqWakGr8%3D/s.glbimg.com/et/gs/f/original/2016/05/18/bombons_de_cereja.jpg",
     "ingredients": [
         "100g de calda da cereja400ml de vodca (ou Bourbon ou whisky com 40º de álcool)Corante alimentício em pó vermelho a gosto50 cerejas em calda com cabo e drenadas600g de fondant branco400g de chocolate meio amargo temperado"
     ],
@@ -97,6 +101,7 @@
 {
     "id": "5744eff20ca7832b5c745a4c",
     "name": "Paleta Assada",
+    "img_url": "https://img.itdg.com.br/tdg/images/recipes/000/029/253/132559/132559_original.jpg?mode=crop&width=710&height=400",
     "ingredients": [
         "1 litro de água3 colheres (sopa) de sal (45g)3 colheres (sopa) de açúcar (30g)1⁄2 colher (sopa) de alho picado (5g)1 colher (sopa) de pimenta-do-reino moída a gosto (5g)1 colher (sopa) de páprica picante em pó (5g)Alecrim debulhado a gosto4 bifes de paleta com osso (+/- 3kg no total)"
     ],
@@ -111,7 +116,8 @@
 },
 {
     "id": "5744eff20ca7832b5c745a4d",
-    "name": "Geleia de Morango com Pimenta da Anna Terra",
+    "name": "Geleia de Morango com Pimenta",
+    "img_url": "https://s2.glbimg.com/NQtV4fd-6IiCveNcy84NCjil9UY=/0x0:4032x3024/984x0/smart/filters:strip_icc()/s2.glbimg.com/iPSrXaD2sRF4LYSbSjAW3jftSoo%3D/s.glbimg.com/et/gs/f/original/2016/05/09/geleia.jpg",
     "ingredients": [
         "750 g de morangos cortados em cubos",
         "8 colheres de sopa de açúcar cristal",
@@ -127,43 +133,9 @@
     ]
 },
 {
-    "id": "5744eff20ca7832b5c745a4e",
-    "name": "Siri Gratinado da Júlia",
-    "ingredients": [
-        "500 g de carne de Siri",
-        "1 cebola média picada",
-        "1 pimentão vermelho picado",
-        "1 pimentão amarelo picado",
-        "1⁄2 pimenta dedo-de-moça picada sem semente",
-        "4 tomates sem pele e sem semente picado",
-        "6 a 8 fatias de pão de forma sem casca",
-        "1 vidro de leite de coco",
-        "1 copo de leite de vaca",
-        "3 colheres de sopa de azeite de oliva",
-        "1 colher de sopa de azeite de dendê",
-        "1 folha de louro",
-        "6 azeitonas verdes cortadas bem pequenas",
-        "Pimenta-do-reino a gosto",
-        "Sal a gosto",
-        "2 dentes de alho",
-        "1⁄2 xícara de queijo parmesão faixa azula",
-        "1⁄2 xícara de farinha de rosca"
-    ],
-    "preparation": [
-        "1 - Coloque as fatias do pão na mistura do leite de vaca com o leite de coco.",
-        "2 - Aqueça a panela, refogue no azeite de oliva, a cebola, os tomates, os pimentões e o alho.",
-        "3 - Em outra panela, refogue com o azeite de dendê e o restante do azeite de oliva, a carne de Siri, a pimenta dedo-de-moça, o louro e a pimenta-do-reino.",
-        "4 - Acerte o sal e continue mexendo para que todos osIngredientes incorporem bem. Se necessário, acrescente um pouco mais de azeite de oliva.",
-        "5 - Junte os dois refogados e acrescente a mistura dos pães com o leite. Vá mexendo até obter uma massa homogênea e consistente.",
-        "6 - Coloque as azeitonas e acerte o sal e a pimenta-do-reino.",
-        "7 - Misture a farinha de rosca com o queijo ralado na hora.",
-        "8 - Coloque em refratários individuais, polvilhe com a mistura de farinha e queijo e coloque em forno quente para gratinar.",
-        "9 - Obs: se você quiser dar mais uma cor ao siri, acrescente um pouco de molho de tomate."
-    ]
-},
-{
     "id": "5744eff20ca7832b5c745a4f",
     "name": "Paella do Petrúcio",
+    "img_url": "https://s2.glbimg.com/TfcyHz9KCfWvKrNHS6qTS99pNyk=/0x0:720x540/984x0/smart/filters:strip_icc()/s2.glbimg.com/YBgihZL9vY9kE8Je2fiCBQU7USY%3D/s.glbimg.com/et/gs/f/original/2016/05/09/paella.jpg",
     "ingredients": [
         "200 g de polvo em pedaços",
         "200 g de lula em anéis",
@@ -194,7 +166,8 @@
 },
 {
     "id": "5744eff20ca7832b5c745a50",
-    "name": "Camarão no Abacaxi do Anderson",
+    "name": "Camarão no Abacaxi",
+    "img_url": "https://s2.glbimg.com/tk-nkXrySTLliJMP0jGOxu37JzY=/0x0:720x960/984x0/smart/filters:strip_icc()/s2.glbimg.com/ZUPYbLBlpuFGF9JTa2zpFckF5Kg%3D/s.glbimg.com/et/gs/f/original/2016/05/09/abacaxi.jpg",
     "ingredients": [
         "1 abacaxi maduro inteiro e com coroa",
         "500 g de camarão fresco sem casca",
@@ -219,87 +192,9 @@
     ]
 },
 {
-    "id": "5744eff20ca7832b5c745a51",
-    "name": "Taça Furiosa - Mousse de Chocolate Amargo com Uísque",
-    "ingredients": [
-        "MOUSSE ",
-        "12 gemas peneiradas",
-        "100 g de açúcar",
-        "600 g de chocolate meio amargo derretido com 200 g de manteiga",
-        "100 ml de uísque",
-        "1 colher (sopa) de baunilha",
-        "12 claras",
-        "1 pitada de sal",
-        "MORANGOS ",
-        "4 colheres (sopa) de açúcar",
-        "150 ml de uísque",
-        "500 g de morangos em cubos",
-        "BACON",
-        "5 tiras de bacon",
-        "Açúcar mascavo a gosto"
-    ],
-    "preparation": [
-        "MOUSSE ",
-        "1 - Em uma tigela coloque 12 gemas peneiradas, açúcar e bata bem até ficar fofo.",
-        "2 - Adicione 600 g de chocolate meio amargo derretido com 200 g de manteiga, 100 ml de uísque, 1 colher (sopa) de baunilha, misture bem e reserve.",
-        "3 - Coloque em uma batedeira 12 claras, 1 pitada de sal e bata bem até ficar em ponto de neve.",
-        "4 - Desligue a batedeira, transfira as claras batidas para a mistura de chocolate e misture delicadamente.",
-        "MORANGOS ",
-        "1 - Em uma panela coloque 4 colheres (sopa) de açúcar, 150 ml de uísque, 500 g de morangos em cubos e leve ao fogo baixo até formar uma calda mole. Retire do fogo e deixe esfriar.",
-        " BACON ",
-        "1 - Em uma assadeira forrada com papel-manteiga coloque as 5 tiras de bacon e salpique açúcar mascavo a gosto até cobrir as tiras.",
-        "2 - Leve ao forno médio preaquecido a 180°C até ficarem sequinhas e doces.",
-        "3 - Retire do forno e deixe esfriar.",
-        "MONTAGEM ",
-        "1 - Em taças de servir coloque uma porção de mousse de chocolate, um copinho plástico de café no meio da taça e leve ao freezer até endurecer.",
-        "2 - Retire os copinhos de café das taças e nas cavidades que se formaram coloque o recheio de morango (reservado acima).",
-        "3 - Cubra com a mousse de chocolate e leve à geladeira até endurecer.",
-        "4 - Sirva em seguida com uma fatia de bacon caramelizada."
-    ]
-},
-{
-    "id": "5744eff20ca7832b5c745a52",
-    "name": "Alto Zé do Pinho - Costela de Porco com Geleia de Laranja",
-    "ingredients": [
-        "1⁄2 kg de costela de porco",
-        "Sal",
-        "Pimenta Ramos de alecrim",
-        "Geleia de Laranja",
-        "Castanhas de Caju",
-        "Vinho Branco",
-        "4 maças",
-        "2 cebolas roxas",
-        "1 cabeça de alho",
-        "papel-alumínio",
-        "Cuscuz flocão",
-        "1 cebola branca",
-        "5 dentes de alho em pedaços",
-        "1 pimentão vermelho",
-        "Sal",
-        "Salsa Manteiga 600 a 800 g de macaxeira",
-        "Leite",
-        "500 g queijo coalho"
-    ],
-    "preparation": [
-        "COSTELINHA SUÍNA ",
-        "1 - Tire o excesso de gordura da costelinha, que é temperada com sal, pimenta e um creme de alho feito no pilão com uma pitada de sal. Um dos lados recebe uma camada de geleia de laranja e as castanhas-de-caju trituradas no saco com um martelo de carne.",
-        "2 - Coloque as costelas por cima de ramos de alecrim e isso tudo vai para o forno alto por uns 30 minutos.",
-        "3 - Tire a assadeira e disponha ao redor das costelas maçãs e cebolas roxas cortadas em pedaços de 1/4, dentes de alho inteiros e ramos de alecrim.",
-        "4 - Regue tudo com uma generosa taça de vinho branco, cubra com papel-alumínio e leve ao forno por mais 1h30. Tire e deixe mais uns 20 minutos sem o papel-alumínio para dourar, caso precise.",
-        "FAROFA ",
-        "1 - A farofa é feita com o cuscuz hidratado e refogado na manteiga com cebola em cubos, alho em pedaços e pimentão vermelho em cubos.",
-        "2 - Acerte o sal e a pimenta e depois que tudo estiver bem frito, misture umas folha de salsa para colorir e aromatizar.",
-        "PURÊ ME MACAXEIRA ",
-        "1 - O purê de macaxeira é feito cozinhando a macaxeira em água com sal.",
-        "2 - Depois é bater no liquidificador com um pouco de leite até virar uma passa homogênea.",
-        "3 - Volte para a panela, acerte o sal, misture o queijo coalho cortado em cubos e deixe integrar bem.",
-        "MONTAGEM ",
-        "1 - A costela é servida cortada em costelinhas no prato, com cebolas, maçãs, alho e alecrim da assadeira. A farofa é servida em uma forminha no prato e o purê de macaxeira com queijo coalho é maçaricado na hora de servir."
-    ]
-},
-{
     "id": "5744eff20ca7832b5c745a53",
     "name": "Duo de Brusquetas",
+    "img_url": "https://i0.wp.com/anamariabraga.globo.com/wp-content/uploads/2016/11/-2461.jpg?w=660&ssl=1",
     "ingredients": [
         "2 pães baguete grandes (ou 4 menores)",
         "1 cachaça",
@@ -327,21 +222,310 @@
         "1 - Corte os tomatinhos na metade e disponha em uma assadeira com açúcar em cima deles, sal, pimenta-do-reino, alho e louro, tudo regado com cachaça e muito azeite. Coloque no forno baixo para confitar.",
         "2 - Coloque uma fatia fina do queijo brie sobre o pão e o tomatinho por cima, então, finalize com pedaços do alho confitado, depois que sair do forno."
     ]
+},{
+  "id": "5744eff20ca7832b5c745a57",
+  "name": "Cheesecake Desconstruída de Limão Siciliano",
+  "ingredients": [
+      "300g de cream cheese1 lata de creme de leite1 lata de leite condensado1 pacote de biscoito doce2 colheres cheias de sopa de manteiga300g de açúcar2 limões siciliano",
+      " "
+  ],
+  "preparation": [
+      "Em um liquidificador triture o biscoito doce até que se transforme em uma fina farinha. Coloque em um recipiente e com as mãos vá misturando a manteiga até que solte da sua mão.",
+      "Ponha em uma assadeira com fundo removível e coloque para assar num forno preaquecido.",
+      "No liquidificador, misture o creme de leite sem soro, o leite condensado, o cream cheese e as raspas de um dos limões.",
+      "Prepare uma forma com papel-manteiga e leve também ao forno preaquecido.",
+      "Em uma panela coloque o açúcar para derreter. Assim que estiver derretido desligue o fogo e deixe esfriar.",
+      "Com a ponta de um garfo puxe o açúcar e na sua mão dê a forma que quiser para decorar sua sobremesa. Podendo também colocar o caramelo em um papel-manteiga untado e depois retirá-lo para decorar a sobremesa.",
+      "Use as raspas do limão para decorar também."
+  ]
 },
 {
-    "id": "5744eff20ca7832b5c745a54",
-    "name": "Docinho da Gaby",
-    "ingredients": [
-        "300g de biscoito maisena100g de manteiga200g de cream cheese50g de queijo parmesão ralado4 ovos200g creme de leite355g de leite condensado12 bananas bem maduras1⁄2 xícara de açúcar"
-    ],
-    "preparation": [
-        "Triture no liquidificador o biscoito e derreta a manteiga no micro-ondas.",
-        "Misture o biscoito e a manteiga, forre a forma de fundo falso (o fundo e as paredes).",
-        "Misture no liquidificador o cream cheese, o queijo parmesão, os ovos, o creme de leite e o leite condensado. Bata até formar uma massa homogênea.",
-        "Coloque a massa na forma e leve ao forno por 30 a 40 minutos.",
-        "Passe no liquidificador a banana.",
-        "Leve ao fogo com o açúcar até fazer o doce.",
-        "Cubra a forma e leve à geladeira."
-    ]
-}
+  "id": "5744eff20ca7832b5c745a58",
+  "name": "Folhado de lagosta e camarão",
+  "ingredients": [
+      "250g de camarão250g de lagosta2 colheres (sopa) de cebola picada2 colheres (sopa) de manteiga300g de creme de leite100g de queijo prima dona100g de queijo cremoso100g de queijo parmesãoSal a gostoPimenta do reino a gostoLimão para temperar o camarão e a lagosta600g de massa folhada",
+      " "
+  ],
+  "preparation": [
+      "Tempere o camarão e a lagosta com sal, pimenta do reino e limão.Deixe reservado por 30 minutos.Em uma panela bem quente, coloque a manteiga com a cebola.Quando a cebola ficar transparente, acrescentar o camarão e a lagosta.Acrescente o queijo prima dona ralado, o queijo cremoso, o creme de leite e o parmesão.Acrescente sal e pimenta para finalização de sabor.Abra a massa folhada com o rolo em uma mesa.Pegue um cortador redondo para cortar a massa na quantidade desejada.Você pode fechar a massa folhada com o recheio no formato de: trouxinha, circular ou qualquer formato a escolha.",
+      " "
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a59",
+  "name": "Lasanha de tapioca, Chocolate e Creme de Avelã",
+  "ingredients": [
+      "300g massa de tapioca1 pote de creme de avelã200g de chocolate meio amargo em barra3 bananas maduras100ml de espumante200g de açúcar granulado100g de chocolate em pó meio amargo",
+      " "
+  ],
+  "preparation": [
+      "Faça as lâminas da tapioca (1 para cada porção). Reserve.",
+      "Derreta o chocolate e o creme de avelã até que fiquem cremosos. Reserve.",
+      "Faça a banana caramelizada: corte em rodelas e levar ao fogo médio com 1 copo de espumante até ferver. Após fervura, coloque o açúcar aos poucos até ponto de calda.",
+      "Montagem do prato: para cada lâmina de tapioca, corte em cruz, fazendo assim 4 pedaços. Coloque o primeiro pedaço, em seguida, coloque o chocolate cremoso. Depois vai o segundo pedaço e logo depois o creme de avelã.",
+      "Coloque o terceiro pedaço e sobre ele novamente o chocolate. Coloque o último pedaço da tapioca. Sobre ele, a banana caramelizada em calda de champanhe. Finalize com chocolate em pó no prato para decorar.",
+      "Sirva quente.",
+      " "
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a5a",
+  "name": "Risoto de Lagosta ao Champagne com Camarões",
+  "ingredients": [
+      "3 caudas de lagosta refogadas e picadas25 camarões grandes e limpos1 cebola em cubinhos1 colher de sopa de alho triturado1 garrafa de espumante secoFio de azeite para refogar150g de manteigaRaspas de 2 limões verdes500ml de caldo de camarão (feito com as cabeças)250g de arroz carnaroli para risoto1 colher de sopa de requeijão cremoso150g de queijo do reinoSal a gostoPimenta-do-reino a gostoPitada de cominho a gosto1 garrafa de vinho tinto suaveAçúcar granulado",
+      " "
+  ],
+  "preparation": [
+      "Refogue a cebola e o alho, coloque o arroz por 30 segundos para refogar. Adicione 1 copo de espumante.Vá colocando o caldo de camarão aquecido até cobrir o arroz e reponha quando o caldo baixar. Repita o processo até cozinhar o arroz.",
+      "Coloque os pedaços de lagosta assim que o arroz estiver perto de sair.",
+      "Quando estiver pronto, coloque uma colher de sopa farta com requeijão cremoso e uma colher de manteiga. Reserve.",
+      "Saltear os camarões no fio de azeite com uma colher de manteiga, coloque sal e finalize com raspas de limão. Reserve.",
+      "Montagem do prato: ",
+      "Coloque o risoto (duas colheres de sopa fartas), rale o queijo do reino sobre a porção, organize ao lado no prato 5 camarões alinhados e passe a redução de vinho sobre eles.",
+      "Para fazer a redução de vinho tinto, coloque 1 garrafa de vinho tinto suave no fogo brando por 30 minutos, adicione açúcar granulado até dar ponto de mel.",
+      " "
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a5b",
+  "name": "Risoto de Lagosta ao Champagne com Camarões",
+  "ingredients": [
+      "3 caudas de lagosta refogadas e picadas25 camarões grandes e limpos1 cebola em cubinhos1 colher de sopa de alho triturado1 garrafa de espumante secoFio de azeite para refogar150g de manteigaRaspas de 2 limões verdes500ml de caldo de camarão (feito com as cabeças)250g de arroz carnaroli para risoto1 colher de sopa de requeijão cremoso150g de queijo do reinoSal a gostoPimenta-do-reino a gostoPitada de cominho a gosto1 garrafa de vinho tinto suaveAçúcar granulado",
+      " "
+  ],
+  "preparation": [
+      "Refogue a cebola e o alho, coloque o arroz por 30 segundos para refogar. Adicione 1 copo de espumante.Vá colocando o caldo de camarão aquecido até cobrir o arroz e reponha quando o caldo baixar. Repita o processo até cozinhar o arroz.",
+      "Coloque os pedaços de lagosta assim que o arroz estiver perto de sair.",
+      "Quando estiver pronto, coloque uma colher de sopa farta com requeijão cremoso e uma colher de manteiga. Reserve.",
+      "Saltear os camarões no fio de azeite com uma colher de manteiga, coloque sal e finalize com raspas de limão. Reserve.",
+      "Montagem do prato: ",
+      "Coloque o risoto (duas colheres de sopa fartas), rale o queijo do reino sobre a porção, organize ao lado no prato 5 camarões alinhados e passe a redução de vinho sobre eles.",
+      "Para fazer a redução de vinho tinto, coloque 1 garrafa de vinho tinto suave no fogo brando por 30 minutos, adicione açúcar granulado até dar ponto de mel.",
+      " "
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a5c",
+  "name": "Pão Árabe de Micro-ondas",
+  "ingredients": [
+      "1 envelope de fermento biológico seco (10 g)300ml de água morna (1 ¼ xícara de chá)1 colher (sopa) de açúcar1 colher (chá) de sal1 xícara (café) de óleo (50 ml)550g de farinha de trigo (4 xícaras de chá)",
+      " "
+  ],
+  "preparation": [
+      "Em uma tigela grande, dissolva 1 envelope de fermento seco em 300 ml de água morna.Adicione 1 colher (sopa) de açúcar , 1 colher (chá) de sal, 1 xícara (café) de óleo e misture.Acrescente, aos poucos, 550 g de farinha de trigo e sove bem a massa. Em seguida deixe crescer dentro de uma tigela coberta com pano por cerca de 1 hora ou até dobrar de volume.",
+      "Divida a massa em 12 bolinhas iguais e faça discos não muito finos (24 cm de diâmetro) com auxilio de um rolo.",
+      "Coloque um disco no prato do micro-ondas e leve ao forno micro-ondas por 30 segundos em potência alta.",
+      "Em seguida, vire o disco e leve por mais 30 segundos na mesma potência.",
+      "Repita o mesmo procedimento com o restante dos discos. Sirva em seguida.",
+      "Para fazer torrada: após tirar a massa do micro-ondas, com ajuda de uma faca marque as fatias superficialmente na massa e tempere a gosto (sal grosso, alecrim, páprica, pimenta caiena, pimenta do reino moída, azeite). Leve novamente ao micro-ondas em potência alta de 1 em 1 minuto até ficar crocante (cerca de 2 a 3 minutos). Sirva em seguida."
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a5d",
+  "name": "Brownie com Castanha de Caju e Sorvete de Cartola com Brigadeiro",
+  "ingredients": [
+      "BROWNIE COM CASTANHA DE CAJU",
+      "140g de farinha de trigo150g de manteiga sem sal150g de chocolate amargo em barra4 ovos320g de açúcar refinado100g de castanhas de caju picadas20g de cacau em póSal a gosto1 rolo de papel-manteiga",
+      "SORVETE DE CARTOLA",
+      "12 bananas bem maduras1 colher (sopa) de margarina1 lata de leite condensado1⁄2 lata de creme de leite50g de queijo coalho ralado finoCanela a gosto",
+      "BRIGADEIRO MOLE",
+      "1 colher (sopa) de manteigaChocolate em pó a gosto1 lata de leite condensado"
+  ],
+  "preparation": [
+      "BROWNIE COM CASTANHA DE CAJU",
+      "Bata os ovos com o açúcar.Derreta o chocolate com a manteiga em banho-maria e despeje sobre os ovos batidos.Misture bem.Junte osIngredientes secos peneirados.Acrescente as castanhas de caju picadas.Numa forma retangular, unte-a e cubra-a com o papel-manteiga.Despeje a massa na assadeira.Leve ao forno pré-aquecido (180º C) para assar por 15 a 25 minutos.Retire do forno e corte em quadrados.",
+      "SORVETE DE CARTOLA",
+      "Corte as bananas ao meio no sentido do comprimento.Numa frigideira, coloque as bananas para fritar com a manteiga.Leve num processador com o leite condensado e o creme de leite.Bata bem a mistura.Acrescente o queijo coalho ralado e a canela, só mexendo com uma colher.Leve ao congelador numa vasilha por pelo menos 3 horas.",
+      "BRIGADEIRO MOLE",
+      "Leve todos osIngredientes numa panela em fogo baixo.Mexa até o ponto de cremosidade.",
+      " "
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a5e",
+  "name": "Vinagrete de Polvo com Torradas Aromáticas",
+  "ingredients": [
+      "1 polvo grande1 cebola grande inteira10 a 12 azeitonas verdes picadas1⁄2 cebola branca picada em cubinho1 colher de chá de alho triturado2 tomates vermelhos picadasFolhas de coentro a gostoSal e pimenta-do-reino a gosto3 folhas de alface americana3 folhas de alface francesa3 folhas de alface crespa10 folhas de rúcula10 folhas de menta50 a 60 g gramas de passas clarasAmêndoas torradas a gosto3 fatias de pão de forma100 g de manteigaRaspas de 2 limões sicilianos",
+      " "
+  ],
+  "preparation": [
+      "Coloque o polvo in natura em panela de pressão com uma cebola grande apenas.",
+      "Após ferver, deixar 7 minutos e tirar do fogo.",
+      "Retire o polvo e corte os tentáculos do polvo em pedaços de 1cm x 1cm aproximadamente e reserve.",
+      "Despreze a cebola e reserve o caldo do polvo.",
+      "Refogue a cebola picada com o alho em uma colher de manteiga, junte o polvo, a azeitona e um pouco do caldo do polvo.",
+      "Tempere com sal e pimenta-do-reino.",
+      "Finalize com o coentro e a tomate picada. Retire do fogo e reserve.",
+      "Corte os pães pela metade e sem casca.",
+      "Misture a manteiga com as raspas de limão siciliano e passe nos pães. Leve ao forno por 4 minutos até dourar. Retire do forno.",
+      "Para montagem do prato: coloque o mix de folhas, das maiores para as menores e de forma colorida. Coloque o vinagrete de polvo e, para finalizar, as amêndoas, as passas e a torrada ao lado. Sirva em seguida.",
+      " "
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a5f",
+  "name": "Salmão na Manteiga de Garrafa e Ervas",
+  "ingredients": [
+      "SALMÃO NA MANTEIGA DE GARRAFA E ERVAS",
+      "1.2kg de filé de salmão grande400ml de manteiga de garrafa2 cabeças de alhoSal a gostoAzeite de oliva a gostoManjericão a gostoOrégano a gostoTomilho a gostoAlecrim a gostoManjerona a gostoEstragão a gosto100g de lâminas de amêndoas torradas",
+      "ARROZ DE CÚRCUMA",
+      "3 xícaras de arroz agulhinha2 cebolas grandes cortadas em cubinhos200ml de azeite de oliva a gosto3 colheres (sopa) de cúrcuma (açafrão da terra)1 cenoura ralada em fio grosso400ml de água quente",
+      "PURÊ DE MACAXEIRA",
+      "1kg de macaxeira1l de leite600ml de leite de cocoNoz-moscada a gosto3 colheres (sopa) de manteiga"
+  ],
+  "preparation": [
+      "SALMÃO NA MANTEIGA DE GARRAFA E ERVAS",
+      "Tire a pele do salmão e corte-o em cubos médios.Tempere com azeite e sal e deixe pegar gosto por uns 5 minutos.Leve ao micro-ondas por 30 segundos até cozinhar levemente.Lamine os dentes de alho.Numa frigideira, leve a manteiga de garrafa, um fio de azeite e o alho para dourar levemente.Acrescente as ervas e o salmão para saltear.Salpique as amêndoas torradas.Sirva.",
+      "ARROZ DE CÚRCUMA",
+      "Numa panela aquecida em fogo médio, coloque a cebola em cubinhos com o azeite pra dourar.Acrescente a cúrcuma e o arroz. Refogue ligeiramente.Tempere com sal e cubra com a água quente.Deixe cozinhar até o ponto al dente.Acrescente a cenoura ralada e mexa algumas vezes até o arroz ficar macio e firme.Se necessário, acrescentar mais um pouco de água.Está pronto!",
+      "PURÊ DE MACAXEIRA",
+      "Descasque a macaxeira e coloque pra cozinhar em água e sal.Quando estiver macia, retire os cordões dela.Bata no liquidificador a macaxeira cozida junto com o leite de vaca e o leite de coco.Leve para a panela com a manteiga.Tempere com sal e noz-moscada a gosto.Cozinhe por 5 minutos.Pode servir.",
+      " "
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a60",
+  "name": "Risoto de bacalhau com bacalhau crocante",
+  "ingredients": [
+      "1 cebola picada1 1⁄2 litro de caldo de peixe4 colheres (sopa) de manteiga300g de arroz arbório200ml de vinho banco seco2 latas de tomate pelado2 colheres de molho de tomate50g de queijo cremoso100g de queijo parmesão1kg de bacalhau do porto dessalgado e desfiadoSal a gostoAzeite a gostoPimenta do reino a gosto",
+      "CROCANTE500g de bacalhau dessalgado, cozido e desfiadoÓleo"
+  ],
+  "preparation": [
+      "Coloque numa frigideira com bastante óleo quente 500g de bacalhau dessalgado, cozido e desfiado.Frite até dourar.Retire, escorra em papel absorvente.Reserve.",
+      "RISOTO DE BACALHAU",
+      "Numa panela, coloque 2 colheres (sopa) de manteiga,1 colher (sopa) de azeite e ½ cebola picada.Coloque 1kg de bacalhau do porto dessalgado, desfiado e temperado com pimenta-do-reino e refogue bem.Retire do fogo e reserve.Em outra panela, coloque 2 colheres (sopa) de manteiga, ½ cebola picada e refogue até a cebola ficar transparente.Adicione 300g de arroz arbório e misture.Acrescente 200ml de vinho branco seco, misture e deixe o vinho evaporar.Junte 2 conchas de caldo de peixe, 2 latas de tomate pelado, 2 colheres (sopa) de molho de tomate e o bacalhau reservado acima.Misture bem.Vá acrescentando o caldo, aos poucos, até o arroz ficar cozido e cremoso.Finalize com o requeijão cremoso, oqueijo parmesão ralado, azeite, sal e pimenta-do-reino a gosto.Misture e retire do fogo.Coloque uma porção de risoto de bacalhau, salpique o crocante de bacalhau e sirva em seguida.",
+      " "
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a61",
+  "name": "Camarões Empanados em Requeijão com Salada Tropical",
+  "ingredients": [
+      "2 alfaces americanos2 alfaces francês crespo roxo1 caixa de tomate cereja2 vidros de palmito inteiro (o mais grosso q achar)2 camarões grandes por pessoa600g de requeijão catupiry400g de castanha de caju200g de gergelim preto1 colher (sopa) de manteigaSal a gosto",
+      "MOLHO TERIAKY NORDESTINO",
+      "100ml de mel de engenho100ml de molho shoyuPimenta-do-reino a gosto2 colheres (sopa) de açúcar",
+      "MOLHO DE LARANJA E MOSTARDA",
+      "2 laranjas100ml de mostarda amarelaNoz-moscada a gostoPimenta-do-reino a gosto",
+      " "
+  ],
+  "preparation": [
+      "Lave todas as folhas e o tomate cereja. Reserve.Numa frigideira, doure levemente a castanha de caju e o gergelim, sempre mexendo, tire do fogo e coloque num prato raso.Descasque os camarões.Numa panela coloque água pra ferver, salgue e coloque os camarões pra cozinhar rapidamente.Retire.Leve os camarões pra saltear numa frigideira com manteiga e uma pitada de sal.Passe o requeijão nos camarões e empane-os na mistura da castanha de caju e gergelim.Monte a salada com os alfaces, o tomate cereja e o palmito.Coloque o molho de laranja e mostarda na salada.Coloque o molho teriaky nordestino no camarão.Sirva a salada acompanhada dos camarões.Para finalizar, regue a gosto com azeite de oliva e tempere levemente com sal.",
+      "MOLHO TERIAKY NORDESTINO",
+      "Coloque o molho shoyo, o mel de engenho e o açúcar em fogo baixo.Tempere com a pimenta-do-reino e mexendo de vez em quando.Deixe engrossar ao ponto de fio.Regue os camarões.",
+      "MOLHO DE LARANJA E MOSTARDA",
+      "Tire o sumo das laranjas.Coloque a mostarda e tempere com a noz-moscada e pimenta-do-reino.Bata bem.Regue a salada."
+  ],
+  "servings": "4 porções"
+},
+{
+  "id": "5744eff20ca7832b5c745a62",
+  "name": "Cestinhas de Churros",
+  "ingredients": [
+      "1 xícara (chá rasa) de farinha de trigo (125 g)2 colheres (sopa) de amido de milho (15 g)1 3⁄4 xícara (chá) de manteiga (50 g)1 xícara (chá) de água (240 ml)7 paçocas esfareladas (200 g)3 ovosCanela com açúcar a gosto",
+      "CALDA DE DOCE DE LEITE",
+      "400g de doce de leite (1 ½ xícara de chá)1⁄2 xícara (chá) de leite morno (120 ml)",
+      " "
+  ],
+  "preparation": [
+      "Coloque em uma tigela 1 xícara (chá rasa) de farinha de trigo, 2 colheres (sopa) de amido de milho, misture e reserve.",
+      "Em uma panela coloque ¼ xícara (chá) de manteiga, 1 xícara (chá) de água, 8 paçocas esfareladas e leve ao fogo médio até ferver.",
+      "Adicione a mistura de farinha com amido e misture até soltar do fundo da panela.",
+      "Retire do fogo, transfira a mistura para uma tigela, acrescente 3 ovos, um a um, misturando bem com uma colher de pau a cada adição.",
+      "Transfira a massa (feita acima) para um saco de confeiteiro com o bico 32.",
+      "Unte o lado de fora de 14 forminhas de empada (7 cm de diâmetro na parte superior X 4,5 cm de diâmetro na parte inferior X 3 cm de altura) e vire as forminhas com a boca para baixo. Coloque a ponta do saco de confeiteiro na borda da forminha de empada, vá apertando o saco e cobrindo toda superfície da empadinha, de baixo para cima, cobrindo toda a forminha e formando as cestinhas.",
+      "Disponha as forminhas numa assadeira e leve para o freezer por cerca de 2 horas ou até congelar. Retire do freezer, desenforme as cestinhas com ajuda de uma faca sem ponta e frite-as em óleo quente até dourar.",
+      "Retire e escorra em papel absorvente com a boca virada para baixo.",
+      "Passe as cestinhas em uma mistura de canela com açúcar e sirva em seguida com 1 bola de sorvete e calda de doce de leite.",
+      "CALDA DE DOCE DE LEITE",
+      "Em uma tigela misture com um batedor de arame 400 g de doce de leite com ½ xícara (chá) de leite morno até fica uma calda lisa.",
+      "Sirva com a cestinha."
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a63",
+  "name": "Arroz de Costela",
+  "ingredients": [
+      "1 1⁄2 Kg de costela bovina limpa, recortada e temperada com sal e pimenta-do-reino1⁄2 Kg de bacon cortado em cubos médios1 cebola picada (200 g)1 colher (sopa) de alho picado350ml de cerveja preta1 litro de água quente1 colher (sopa) de sal4 folhas de louroSálvia picada a gosto750ml de água quente500g de arroz parboilizado lavadoPimenta biquinho em conservaCebolinha picadinha a gosto",
+      " "
+  ],
+  "preparation": [
+      "Em uma panela em fogo médio e quente (que possa ir ao forno) coloque 1 ½ kg de costela bovina limpa, recortada e temperada com sal e pimenta-do-reino, ½ kg de bacon cortado em cubos médios, vá dourando, mexendo de vez em quando por cerca de 25 minutos.",
+      "Adicione 1 cebola picada, 1 colher (sopa) de alho picado e refogue até que fiquem dourados.",
+      "Acrescente 350ml de cerveja preta, 1 litro de água quente, 1 colher (sopa) de sal, 4 folhas de louro, sálvia picada a gosto e misture.",
+      "Tampe a panela e leve ao forno alto preaquecido a 200°C por cerca de 2 horas ou até que a costela esteja cozida.Retire a panela do forno, despeje 750ml de água quente, 500g de arroz parboilizado lavado, misture, tampe, volte a panela ao forno e deixe por mais 30 minutos a 200º C.",
+      "Retire do forno coloque pimenta biquinho em conserva, cebolinha picadinha a gosto, misture e sirva em seguida."
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a64",
+  "name": "Receita do Melhor Pudim do Brasil",
+  "ingredients": [
+      "CALDA",
+      "2 xícaras (chá) de açúcar1 xícara (chá) de água",
+      "PUDIM",
+      "1 xícara (chá) de tapioca granulada1 xícara (chá) de coco ralado fresco1 xícara (chá) de açúcar1 colher (sopa) de manteiga com sal1l de leite fervente1 lata lata de leite condensado1 pitada de sal4 ovos",
+      " "
+  ],
+  "preparation": [
+      "CALDA",
+      "Numa panela coloque 2 xícaras (chá) de açúcar e leve ao fogo médio até derreter e ficar com cor de carameloAdicione 1 xícara (chá) de água e deixe no fogo até dissolver todo o açúcarRetire do fogo, transfira para uma forma de pudim (25 cm de diâmetro X 10 cm de altura) espalhando bem e reserve",
+      "PUDIM",
+      "Numa tigela misture1 xicara (chá) de tapioca granulada, 1 ½ xícara (chá) de coco ralado fresco, 1 xicara (chá) de açúcar, 1 colher (sopa) de manteiga com salAdicione 1 litro de leite fervente, misture cubra com um pano grosso e deixe descansar por cerca de 6 horasEm seguida adicione 1 lata de leite condensado, 4 ovos e misture bemTransfira a mistura para a forma de pudim caramelada (reservada acima)Leve para assar em forno médio preaquecido no banho-maria a 180ºC por cerca de 1 horaRetire do forno, passe uma faca em volta do pudim e deixe esfriarDesenforme e leve para gelarSirva em seguida",
+      " "
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a65",
+  "name": "Petisco de pão",
+  "ingredients": [
+      "PETISCO DE PÃO",
+      "1⁄4 xícara (chá) de azeite1⁄2 xícara (chá) de cebola picadinha1 colher (sopa) de alho picadinho1⁄2 colher (sopa) de páprica picante1⁄2 colher (sopa) de açafrão1⁄2 xícara (chá) de polpa de tomateTomilho debulhadoSal a gosto4 pães franceses cortados em cubos médios (+/- 5 xícaras de chá)",
+      "OVO POCHÊ SEM ERRO",
+      "1 ovoAzeite para untar",
+      " "
+  ],
+  "preparation": [
+      "PETISCO DE PÃO",
+      "Em uma frigideira com ¼ xícara (chá) de azeite, refogue ½ xícara (chá) de cebola picadinha e 1 colher (sopa) de alho picadinhoAdicione ½ colher (sopa) de páprica picante, ½ colher (sopa) de açafrão, ½ xícara (chá) de polpa de tomate, tomilho debulhado e sal a gostoRefogue até ferverAcrescente 4 pães franceses cortados em cubos médiosMisture até envolver os cubosDesligue o fogo e transfira os cubos de pão para uma assadeira rasaLeve ao forno alto preaquecido a 180°C por cerca de 30 minutos ou até secarRetire do forno e sirva a seguir com ovo pochê ou frito",
+      "OVO POCHÊ SEM ERRO",
+      "Unte com azeite um potinho de cerâmica pequeno e despeje 1 ovo sem cascaColoque o potinho em uma frigideira com água fervente de modo que a água não ultrapasse a metade do potinhoDeixe que o ovo cozinhe por 3 minutos até que a clara fique bem cozida e a gema moleTempere com sal e pimenta-do-reino moídaDesenforme com a ajuda da ponta de uma facaSirva com o petisco de pão",
+      " "
+  ]
+},
+{
+  "id": "5744eff20ca7832b5c745a66",
+  "name": "Brownie de Chocolate com Gengibre",
+  "ingredients": [
+      "50 g farinha de milho fina",
+      "10 g de cacau em pó",
+      "250 g de chocolate meio amargo",
+      "200 g de manteiga sem sal cortada em cubos",
+      "20 ml de suco de gengibre",
+      "5 ovos",
+      "200 g de açúcar",
+      "1 colher (chá) de fermento em pó",
+      "100 g de nozes picadas grosseiramente",
+      " "
+  ],
+  "preparation": [
+      "1 - Coloque numa tigela a farinha de milho fina e o cacau em pó.",
+      "2 - Misture e reserve.",
+      "3 - Numa panela, em banho-maria, derreta o chocolate meio amargo picado com a manteiga sem sal cortada em cubos.",
+      "4 - Retire do fogo.",
+      "5 - Adicione o suco de gengibre e misture.",
+      "6 - Acrescente a mistura de farinha com cacau em pó (reservada acima). Misture bem e reserve.",
+      "7 - Numa batedeira, coloque os ovos e o açúcar. Bata bem até dobrar de volume.",
+      "8 - Com a batedeira ainda ligada, adicione o fermento em pó e bata até misturar.",
+      "9 - Desligue a batedeira. Acrescente a mistura de chocolate (reservada acima) e as nozes picadas. Misture.",
+      "10 - Transfira a massa para uma assadeira retangular (18 cm X 30 cm) untada e forrada com papel manteiga.",
+      "11 - Leve para assar em forno médio pré-aquecido a 180°C por +/- 40 minutos.",
+      "12 - Retire do forno.",
+      "13 - Cubra o brownie com papel manteiga.",
+      "14 - Coloque outra assadeira do mesmo tamanho pressionando levemente o brownie para que fique mais compacto e úmido",
+      "15 - Deixe por +/- 4 horas na geladeira.",
+      "16 - Retire a assadeira de cima do brownie, desenforme, corte em quadrados e sirva em seguida.",
+      " "
+  ],
+  "servings": "20 porções"
+},
 ]

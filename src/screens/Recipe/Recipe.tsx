@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 import { useRoute } from "@react-navigation/native";
 
-import mockedImage from "mocks/Recipe/recipe_image-2.png";
+import imgPlaceholder from "mocks/Search/recipe-placeholder.jpg";
 import Text from "components/Text";
 import Tabs from "components/Tabs";
 import Icon from "components/Icon";
@@ -21,6 +21,7 @@ const Recipe = () => {
   const textColor = theme.colors.neutral.gray3;
 
   const { recipe } = route.params as RecipesProps;
+  const { img_url } = recipe;
 
   const pageTabs = [
     { name: "Preparo", action: () => setSelectedTab(0) },
@@ -44,7 +45,10 @@ const Recipe = () => {
       showsVerticalScrollIndicator={false}
       style={styles.container}
       contentContainerStyle={styles.content}>
-      <Image style={styles.image} source={mockedImage} />
+      <Image
+        style={styles.image}
+        source={img_url ? { uri: img_url } : imgPlaceholder}
+      />
 
       <Text.Small passedStyle={styles.title} bold>
         {recipe.name}

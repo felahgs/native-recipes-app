@@ -5,7 +5,7 @@ import LinearGradient from "react-native-linear-gradient";
 import { useNavigation } from "@react-navigation/native";
 
 import { StackRoutes } from "constants/routes";
-import mockedImage from "mocks/Search/recipe-search.png";
+import imgPlaceholder from "mocks/Search/recipe-placeholder.jpg";
 import Text from "components/Text";
 import { useTheme } from "hooks/useTheme";
 
@@ -16,16 +16,18 @@ export default function FeaturedCard({ recipe }: FeaturedCardProps) {
   const { RECIPE } = StackRoutes;
   const theme = useTheme();
   const textColor = theme.colors.neutral.white;
-  // const navigation = useNavigation<NativeStackNavigationProp<PageStackProps>>();
   const navigation = useNavigation();
 
-  const handleNavigation = () => navigation.navigate(RECIPE, { recipe });
-  // const handleNavigation = () => console.log("navigate with recipe", recipe);
-  const { name } = recipe;
+  const handleNavigation = () =>
+    navigation.navigate(RECIPE as never, { recipe } as never);
+  const { name, img_url } = recipe;
 
   return (
     <TouchableOpacity onPress={handleNavigation} style={styles.searchCard}>
-      <Image style={styles.image} source={mockedImage} />
+      <Image
+        style={styles.image}
+        source={img_url ? { uri: img_url } : imgPlaceholder}
+      />
       <LinearGradient colors={["#0000003b", "#000000"]} style={styles.mask} />
       <View style={styles.title}>
         <Text.Small bold color={textColor}>
