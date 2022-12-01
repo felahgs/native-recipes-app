@@ -5,6 +5,7 @@ export interface ButtonType
     PressableProps,
     React.RefAttributes<View> {
   passedStyle?: StyleProp<{}>;
+  isLoading?: boolean;
   title?: string;
   onPress: () => void;
   secondary?: boolean;

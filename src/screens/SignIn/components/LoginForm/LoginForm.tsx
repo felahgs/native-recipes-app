@@ -15,7 +15,7 @@ const LoginForm = () => {
   const [password, setPassword] = useState("");
 
   const theme = useTheme();
-  const { signIn } = useAuth();
+  const { signIn, isLoading } = useAuth();
   const isValid = !!login && !!password;
 
   const handleSignin = () => signIn({ email: login, password });
@@ -49,6 +49,7 @@ const LoginForm = () => {
       <Button
         onPress={handleSignin}
         disabled={!isValid}
+        isLoading={isLoading}
         accessibilityLabel="Fazer cadastro de conta"
         title="Entrar"
         icon="arrow-right"

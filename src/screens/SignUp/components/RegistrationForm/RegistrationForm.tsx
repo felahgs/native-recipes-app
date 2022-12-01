@@ -16,7 +16,7 @@ const RegistrationForm = () => {
   const [email, setEmail] = useState("");
 
   const theme = useTheme();
-  const { signUp } = useAuth();
+  const { isLoading, signUp } = useAuth();
 
   const showPasswordError =
     password !== confirmPassword && confirmPassword.length > 0;
@@ -81,6 +81,7 @@ const RegistrationForm = () => {
         // "TODO: handle username and press animation"
         disabled={!isDataValid}
         onPress={handleSignUp}
+        isLoading={isLoading}
         accessibilityLabel="Fazer cadastro de conta"
         title="Registrar"
         icon="arrow-right"
